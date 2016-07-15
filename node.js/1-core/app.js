@@ -14,4 +14,4 @@ if (!user || !greeting) {
 
 
 // usage
-// >node app --user Doug --greeting "Hello World!"
+// >node app --user Name --greeting "Hello World!"
