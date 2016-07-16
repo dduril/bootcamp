@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Programmer" />
+    <meta name="description" content="Form Example" />
+    <title>HTML5 - Form Study</title>
+    <style type="text/css">
+        body {
+            color: #000;
+            background-color: #fff;
+            width: 80%;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            font-size: 0.9em;
+        }
+                
+        .header_line {
+            border-bottom: 3px solid #999;     
+        }
+        
+        label {
+            display: block;
+            float: left;
+            width: 120px;
+        }
+        
+        input[type="text"], 
+        input[type="tel"],
+        input[type="url"],
+        input[type="date"],
+        input[type="number"] {
+            width: 150px    
+        }
+        
+        select {
+            width: 170px    
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML5 - Form Study</h2>			
+    <div class="header_line"></div>
+    
+    <br />
+    <form action="/" method="post">
+       <fieldset>
+           <legend><strong>Your Information</strong></legend>
+           <p>
+            <label for="first_name">First Name:</label>
+            <input id="first_name" name="first_name" type="text" maxlength="25" autofocus placeholder="Your first name" required>       
+        </p>
+        <p>
+            <label for="last_name">Last Name:</label>
+            <input id="last_name" name="last_name" type="text" maxlength="25" placeholder="Your last name" required>     
+        </p>
+        
+        <p>
+            <label for="email_address">Email Address:</label>
+            <input id="email_address" name="email_address" type="email" maxlength="30">   
+        </p>
+        
+        <p>
+            <label for="framework">Framework:</label>
+            <select id="framework" name="framework">
+                <option value="Angular">Angular</option>
+                <option value="Backbone">Backbone</option>
+                <option value="Ember">Ember</option>
+                <option value="Meteor">Meteor</option>
+                <option value="React">React</option>
+            </select>
+        </p>
+        
+        <p>
+            <label for="database">Database:</label>
+            <select id="database" name="database">
+                <option value="MongoDB">MongoDB</option>
+                <option value="MySQL">MySQL</option>
+                <option value="PostgreSQL">PostgreSQL</option>
+                <option value="Oracle">Oracle</option>
+                <option value="SQL Server">SQL Server</option>
+            </select>
+        </p>
+    
+        <p>
+            <label>&nbsp;</label>
+            <!--<input type="button" value="Submit" />-->
+            <button type="submit">Submit</button>&nbsp;
+            <button type="reset">Reset</button>
+        </p>
+       </fieldset>
+       
+        
+    </form>
+
+</body>
+</html>

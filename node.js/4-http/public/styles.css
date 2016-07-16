@@ -1,0 +1,15 @@
+html{
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+}
+
+body {
+	width: 70%;
+	margin: 0 auto;
+	font-family: 'Roboto Slab', serif;
+	font: 100%;
+	padding: 1em 50px;
+	background-color: #fff;
+	border-bottom: 10px solid gold;
+}
