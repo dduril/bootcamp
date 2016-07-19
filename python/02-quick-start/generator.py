@@ -20,6 +20,6 @@ def primes(n = 1):
 
 print("Prime Numbers")
 for n in primes():
-    if n > 50: break
+    if n > 100: break
     print(n)
 print("Done")

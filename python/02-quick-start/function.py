@@ -16,5 +16,6 @@ def is_prime(n):
         print(n, "is a prime number")
         return True
 
-for n in range(50):
+for n in range(100):
     is_prime(n)
+print("Done")

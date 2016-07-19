@@ -4,7 +4,7 @@
 # Conditionals
 # -----------------------------------------------
 
-a, b = 8, 12
+a, b = 10, 15
 if a < b:
     print('a ({}) is less than b ({})'.format(a, b))
 else:
