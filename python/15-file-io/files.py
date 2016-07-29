@@ -1,7 +1,7 @@
 # -----------------------------------------------
 # Python Examples
 #
-# Files
+# Text Files
 # -----------------------------------------------
 
 def main():
@@ -13,5 +13,5 @@ def main():
     except IOError as e:
         print("Exception ({})".format(e))
     print("Done")
-    
+
 if __name__ == "__main__": main()
