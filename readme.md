@@ -1,8 +1,8 @@
 # Bootcamp
 
-Having upgraded to a Premium LinkedIn account, I now have access to the Lynda.com library of courses. These courses are very well produced and cover a wide spectrum of topics including project management, software programming, data analysis, and web development (both front end and full stack).
+Having upgraded to a Premium LinkedIn account, I now have access to the Lynda.com library of courses. These courses are very well produced and cover a wide spectrum of topics including project management, programming, data analysis and visualization, and full stack web development.
 
-This repo is based on the 'Essentials' series and serves as a bootcamp for building a collection of code samples for a variety of popular programming languages. These samples can used for quick references on the basics of the language and refreshing on general syntax and structure.
+This repo is based on the 'Essentials' series and serves as a coding bootcamp for a variety of popular programming languages. These samples are intended for quick reference on language syntax and best practices.
 
 ---
 
