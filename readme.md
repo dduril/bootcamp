@@ -6,7 +6,7 @@ This repo is based on the 'Essentials' series and serves as a bootcamp for build
 
 ---
 
-Links to programming languages, frameworks, and tools for getting started and for reference:
+Links to programming languages and tools for getting started:
 
 #### Java
 
