@@ -1,12 +1,7 @@
 # -----------------------------------------------
 # Ruby Examples
 #
-# Hello World!
+# Arrays
 # -----------------------------------------------
 
 
-puts "Hello World!" 
-
-
-# Output
-# >Hello World!
