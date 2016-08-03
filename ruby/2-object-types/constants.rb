@@ -1,10 +1,12 @@
 # -----------------------------------------------
 # Ruby Examples
 #
-# Hello World!
+# Constants
 # -----------------------------------------------
 
-puts "Hello World!" 
-
-# Output
-# >Hello World!
+# constants
+puts "Constants"
+puts "---------"
+PI = 3.14159
+puts PI
+puts PI.class
