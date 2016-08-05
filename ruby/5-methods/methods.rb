@@ -10,7 +10,7 @@ def hello
 end
 
 # greeting
-def greeting(name = "John")
+def greeting(name = "World")
   puts "Hello #{name}!\n\n"
 end
 
@@ -19,9 +19,21 @@ def add(x=nil, y=nil)
   return x + y
 end
 
+# add and subtract
+def add_and_subtract(x=0, y=0)
+  add = x + y
+  sub = x - y
+  return [add, sub]
+end
+
 # multiply
 def multiply(x=nil, y=nil)
   return x * y
+end
+
+# exponent
+def exponent(x=nil, y=nil)
+  return x ** y
 end
 
 # longest_word

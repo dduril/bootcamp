@@ -13,10 +13,25 @@ greeting()
 
 greeting("Jenny")
 
+puts "add"
 puts "Output: #{add(5, 10)}"
 puts
 
+puts "multiply"
 puts "Output: #{multiply(8, 8)}"
+puts
+
+x = 2
+y = 5
+result = exponent(2, 5)
+puts "exponent"
+puts "#{x} to the power of #{y} equals #{result}."
+puts
+
+result = add_and_subtract(5, 3) # alternative usage: add, sub = add_and_subtract(5, 3)
+puts "add_and_subtract"
+puts "add     : #{result[0]}"
+puts "subtract: #{result[1]}"
 puts
 
 fruits = ['apple', 'cherry', 'pineapple', 'strawberry', 'orange']
