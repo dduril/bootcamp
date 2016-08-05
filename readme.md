@@ -45,7 +45,7 @@ Links to programming languages and tools for getting started:
 
 - **<a href="https://www.python.org/" target="_blank">Python</a>**
 - **<a href="https://www.python.org/doc/" target="_blank">Python Documentation</a>**
-- **<a href="https://pip.pypa.io/en/stable/#" target="_blank">pip</a>** (Python's Package Management System)                
+- **<a href="https://pip.pypa.io/en/stable/#" target="_blank">pip</a>** (Python's Package Management System)             
 - **<a href="http://www.jetbrains.com/pycharm/" target="_blank" title="PyCharm">PyCharm - IDE</a>**
 
 ---
@@ -60,6 +60,11 @@ Links to programming languages and tools for getting started:
 - **<a href="http://www.aptana.com/" target="_blank">Aptana Studio</a>**
 - **<a href="https://www.jetbrains.com/ruby/" target="_blank">RubyMine</a>**
 - **<a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a>**
+
+#### Rails
+
+- **<a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a>**
+- **<a href="http://guides.rubyonrails.org/getting_started.html" target="_blank">RailsGuides</a>**
 
 ---
 
