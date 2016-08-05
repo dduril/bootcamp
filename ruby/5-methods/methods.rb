@@ -19,6 +19,11 @@ def add(x=nil, y=nil)
   return x + y
 end
 
+# multiply
+def multiply(x=nil, y=nil)
+  return x * y
+end
+
 # longest_word
 def longest_word(words=[])
   longest_word = words.inject do |memo, word|

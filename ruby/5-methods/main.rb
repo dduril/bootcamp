@@ -13,7 +13,10 @@ greeting()
 
 greeting("Jenny")
 
-puts "Output: #{add(50, 100)}"
+puts "Output: #{add(5, 10)}"
+puts
+
+puts "Output: #{multiply(8, 8)}"
 puts
 
 fruits = ['apple', 'cherry', 'pineapple', 'strawberry', 'orange']
