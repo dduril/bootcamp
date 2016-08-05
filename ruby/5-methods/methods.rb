@@ -10,7 +10,7 @@ def hello
 end
 
 # greeting
-def greeting(name = "Joe")
+def greeting(name = "John")
   puts "Hello #{name}!\n\n"
 end
 
@@ -34,22 +34,3 @@ def longest_word2
   end
   puts "Longest word: " + longest_word
 end
-
-# method output
-hello
-
-greeting()
-
-greeting("Jenny")
-
-puts "Output: #{add(50, 100)}"
-puts
-
-fruits = ['apple', 'cherry', 'pineapple', 'strawberry', 'orange']
-longest_word(fruits)
-puts
-
-# instance variable will have scope inside the method
-@veggies = ['beans', 'spinach', 'green beans', 'carrot', 'onion']
-longest_word2
-puts
