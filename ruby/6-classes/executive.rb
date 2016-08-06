@@ -9,7 +9,7 @@ class Employee
   # attributes
   attr_accessor :first_name, :last_name, :job_title, :company_name, :pay_group
 
-  # class attribute
+  # class attributes
   @@company_name = "IT Consulting, Inc."
   @@pay_group = "Salaried"
   @@total_employees = 0
