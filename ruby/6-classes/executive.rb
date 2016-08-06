@@ -101,6 +101,9 @@ class Executive < Employee
 
 end
 
+
+# Sample Output
+# -----------------------------------------------
 puts Employee.all_departments.inspect
 puts ""
 

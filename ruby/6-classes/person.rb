@@ -17,6 +17,9 @@ p.city = "San Jose"
 p.state = "CA"
 p.zip_code = "95124"
 
+
+# Sample Output
+# -----------------------------------------------
 #puts p.first_name + " " + p.last_name
 puts p.full_name
 puts p.city_state_zip

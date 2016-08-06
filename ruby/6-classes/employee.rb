@@ -26,6 +26,9 @@ class Employee
   end
 end
 
+
+# Sample Output
+# -----------------------------------------------
 emp1 = Employee.new
 emp1.set_name("John", "Smith")
 emp1.job_title = "Full Stack Web Developer"
