@@ -10,7 +10,7 @@ class Employee
   attr_accessor :first_name, :last_name, :job_title, :company_name, :pay_group
 
   # class attributes
-  @@company_name = "IT Consulting, Inc."
+  @@company_name = "ACME Contracting, Inc."
   @@pay_group = "Salaried"
   @@total_employees = 0
 
@@ -20,7 +20,7 @@ class Employee
 
   # class method
   def self.all_departments
-    ['Accounting', 'Engineering', 'Information Technology', 'Office Services']
+    ['Accounting', 'Engineering', 'Information Technology', 'Human Resources', 'Operations']
   end
 
   # class method

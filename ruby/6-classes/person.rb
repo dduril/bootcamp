@@ -15,7 +15,7 @@ p.first_name = "John"
 p.last_name = "Smith"
 p.city = "San Jose"
 p.state = "CA"
-p.zip_code = "95124"
+p.zip_code = "95324"
 
 
 # Sample Output
