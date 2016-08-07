@@ -10,7 +10,7 @@ class Employee
   attr_accessor :first_name, :last_name, :job_title, :company_name, :pay_group
 
   # class attributes
-  @@company_name = "ACME Contracting, Inc."
+  @@company_name = "IT Consultants, Inc."
   @@pay_group = "Salaried"
   @@total_employees = 0
 
@@ -20,7 +20,7 @@ class Employee
 
   # class method
   def self.all_departments
-    ['Accounting', 'Engineering', 'Information Technology', 'Human Resources', 'Operations']
+    ['Executive', 'Accounting', 'Engineering', 'Office Services', 'Human Resources']
   end
 
   # class method
@@ -98,8 +98,17 @@ end
 
 
 class Executive < Employee
-
+  
+  # override display_attributes
+  def display_attributes
+    puts ""
+    puts "=====----- Executive -----====="
+    puts "Company : " + @@company_name
+    puts "Name    : " + @first_name + ' ' + @last_name
+    puts "Title   : " + @job_title
+  end
 end
+# end class
 
 
 # Sample Output
