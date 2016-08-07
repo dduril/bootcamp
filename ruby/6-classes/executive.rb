@@ -103,9 +103,10 @@ class Executive < Employee
   def display_attributes
     puts ""
     puts "=====----- Executive -----====="
-    puts "Company : " + @@company_name
-    puts "Name    : " + @first_name + ' ' + @last_name
-    puts "Title   : " + @job_title
+    super # call parent display_attributes method
+    #puts "Company : " + @@company_name
+    #puts "Name    : " + @first_name + ' ' + @last_name
+    #puts "Title   : " + @job_title
   end
 end
 # end class
