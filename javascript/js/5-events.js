@@ -12,6 +12,5 @@ function prepareEventHandlers() {
 }
 
 window.onload = function() {
-    // prep anything we need to
     prepareEventHandlers();
 }
