@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Template</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap theme -->
+    <link href="assets/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   
+   <div class="container">
+      
+        <div class="page-header">
+            <h1>JavaScript Best Practices</h1>
+        </div>
+
+        <p><strong>Variables, Functions, and Methods - CamelCase</strong></p>
+        <pre>var id;
+var firstName;
+var minimumPaymentAmountDue;
+function displayName() { ... }</pre>
+
+        <p><strong>Objects - Uppercase First Letter</strong></p>
+        <pre>var myDate = new Date();</pre>
+
+        <p><strong>Brace Style</strong></p>
+        <pre>if (condition) {
+    // ...
+}</pre>
+
+        <p><strong>Always Use Blocks</strong></p>
+        <pre>if (x > 500) {
+    console.log("Alert.");
+}</pre>
+       
+        <p><strong>Define functions before using them</strong></p>
+        <pre>function createMessage(firstName, lastName) {
+    console.log("Greetings! " + firstName + " " + lastName); 
+}
+
+createMessage("John", "Smith");</pre>
+        
+        <p><strong>Always include semicolon to end a statement</strong></p>
+        <pre>var myDate = new Date(2016, 8, 19, 0, 0, 0);
+console.log(myDate);</pre>
+        
+        <p><strong>Always use var when declaring a variable</strong></p>
+        <pre>var myArray = new Array();
+var foo;
+var bar;</pre>
+    
+   </div><!-- /container -->
+   
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="assets/jquery/dist/jquery.min.js"></script>
+    <script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
