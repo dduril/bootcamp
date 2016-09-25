@@ -26,6 +26,8 @@ Links to programming languages and tools for getting started:
 
 - **<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a>**
 
+---
+
 #### jQuery
 
 - **<a href="https://jquery.com/" target="_blank" title="jQuery">jQuery</a>**
