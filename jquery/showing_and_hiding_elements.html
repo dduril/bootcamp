@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Web Development</title>
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="assets/stylesheets/base.css">
+	<link rel="stylesheet" href="assets/stylesheets/skeleton.css">
+	<link rel="stylesheet" href="assets/stylesheets/layout.css">
+	<link rel="stylesheet" href="assets/stylesheets/docs.css">
+
+	<!-- Favicon
+	================================================== -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+	
+	<script src="assets/js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript">
+		$("document").ready(function(){
+	
+				$("#show").click(function(){
+					$("#myDiv").show("normal");
+				});
+				
+				$("#hide").click(function(){
+					$("#myDiv").hide("normal");
+				});
+				
+				$("#toggle").click(function(){
+					$("#myDiv").toggle("normal");
+				});
+		});
+	</script>
+	<style type="text/css">
+		#myDiv{
+			width: 400px;	
+			border: 1px solid black;
+			background-color: #ddd;
+			font-size: 14px;
+			margin: 10px;
+			padding: 20px;
+			cursor: pointer;
+		}
+		
+		button{
+			margin: 5px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<div class="twelve columns offset-by-one content">
+		
+		<h2>Showing and Hiding Elements</h2>
+		
+		<div id="myDiv">
+		
+		<h3>Sample Content</h3>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum ligula sit amet eros elementum, vel porta urna lacinia. Sed blandit pellentesque odio a ullamcorper. Mauris pellentesque diam lectus, vel tristique erat tempus ut. Nulla scelerisque convallis est. Nam pellentesque sollicitudin tellus, at feugiat velit elementum ac. Aenean commodo mi eu magna tincidunt, id mollis metus pulvinar. Donec venenatis, erat vel gravida imperdiet, leo est bibendum arcu, id laoreet justo urna et mi. Maecenas sit amet leo volutpat, venenatis leo ut, faucibus nisl. Etiam consectetur convallis lobortis.</p>
+
+		<p>Fusce est nulla, viverra vel velit nec, fermentum placerat nisi. In hac habitasse platea dictumst. Duis tellus orci, volutpat quis sapien nec, porttitor cursus tortor. Nam massa lectus, scelerisque vitae mauris sit amet, venenatis mattis tellus. Ut sodales viverra quam, quis lobortis turpis tempor sit amet. Pellentesque vehicula erat mi, eu iaculis tortor tincidunt ut. Duis non lacinia nisi.</p>
+
+		</div>
+		
+		<button id="show">Show</button>
+		<button id="hide">Hide</button>
+		<button id="toggle">Toggle</button>
+	</div>
+</div>
+
+</body>
+</html>

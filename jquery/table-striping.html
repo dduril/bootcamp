@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Web Development</title>
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="assets/stylesheets/base.css">
+	<link rel="stylesheet" href="assets/stylesheets/skeleton.css">
+	<link rel="stylesheet" href="assets/stylesheets/layout.css">
+	<link rel="stylesheet" href="assets/stylesheets/docs.css">
+
+	<!-- Favicon
+	================================================== -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+	
+	<script src="assets/js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript">
+		$("document").ready(function(){
+			$("#list tr:even").addClass("stripe1");
+			$("#list tr:odd").addClass("stripe2");
+			
+			$("#list tr").hover(
+				function(){
+					$(this).toggleClass("highlight");
+				},
+				function(){
+					$(this).toggleClass("highlight");
+				}
+			);
+			
+			$("#list").on("click", "tr", function(evt) {
+				$("#selection").html("<strong>Movie selection:</strong> " + $(this).text());
+			});
+			
+		});		
+	</script>
+	<style type="text/css">
+	th, td {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		color: #000000;
+	}
+	
+	tr {
+		border: 1px solid #999;
+	}
+	
+	td {
+		padding: 4px;
+	}
+	
+	th {
+		background-color: #333;
+		color: #ddd;
+		font-weight: bold;
+		text-align: left;
+		padding-left: 2px;
+	}
+	
+	table{
+		border: 1px solid #999;
+		width: 600px;
+	}
+	
+	.clickable {
+		cursor: pointer;
+	}
+	
+	.stripe1 {
+		background-color: #ddd;
+		
+	}
+	
+	.stripe2 {
+		background-color: #fff;
+		
+	}
+	
+	.highlight {
+		background-color: #ffcc00;
+	}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<div class="twelve columns offset-by-one content">
+	
+		<h2>Table Striping</h2>
+		
+		<table id="list" cellspacing="0">
+
+			<colgroup class="group">
+				<col class="title">
+				<col class="runningTime">
+				<col class="releaseYear">
+				<col class="rating">
+			</colgroup>
+
+			<thead>
+				<tr>
+					<th scope="col">Title</th>
+					<th scope="col">Running Time</th>
+					<th scope="col">Release Year</th>
+					<th scope="col">Rating</th>
+				</tr>
+			</thead>
+
+			<tfoot>
+				<tr><td colspan="4" class="last">Serious Science Fiction Films&nbsp;</td></tr>
+			</tfoot>
+			
+			<tbody>	
+			<tr><td>Abyss&nbsp;</td>
+				<td>171&nbsp;</td>
+				<td>1993&nbsp;</td>
+				<td>PG-13&nbsp;</td></tr>
+			<tr><td>Akira&nbsp;</td>
+				<td>124&nbsp;</td>
+				<td>1987&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>Alien&nbsp;</td>
+				<td>116&nbsp;</td>
+				<td>1979&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>Aliens&nbsp;</td>
+				<td>154&nbsp;</td>
+				<td>1986&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>Avatar&nbsp;</td>
+				<td>162&nbsp;</td>
+				<td>2010&nbsp;</td>
+				<td>PG-13&nbsp;</td></tr>
+			<tr><td>Bladerunner&nbsp;</td>
+				<td>117&nbsp;</td>
+				<td>1982&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>Children of Men&nbsp;</td>
+				<td>110&nbsp;</td>
+				<td>2007&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>Close Encounters of the Third Kind&nbsp;</td>
+				<td>137&nbsp;</td>
+				<td>1977&nbsp;</td>
+				<td>PG&nbsp;</td></tr>
+			<tr><td>Dark City&nbsp;</td>
+				<td>96&nbsp;</td>
+				<td>1998&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>District 9&nbsp;</td>
+				<td>112&nbsp;</td>
+				<td>2009&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>Minority Report&nbsp;</td>
+				<td>146&nbsp;</td>
+				<td>2002&nbsp;</td>
+				<td>PG-13&nbsp;</td></tr>
+			<tr><td>Robocop&nbsp;</td>
+				<td>103&nbsp;</td>
+				<td>1987&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>Star Wars - A New Hope&nbsp;</td>
+				<td>123&nbsp;</td>
+				<td>1977&nbsp;</td>
+				<td>PG&nbsp;</td></tr>
+			<tr><td>Star Wars - The Empire Strikes Back&nbsp;</td>
+				<td>129&nbsp;</td>
+				<td>1980&nbsp;</td>
+				<td>PG&nbsp;</td></tr>
+			<tr><td>Star Wars - Return of the Jedi&nbsp;</td>
+				<td>136&nbsp;</td>
+				<td>1983&nbsp;</td>
+				<td>PG&nbsp;</td></tr>
+			<tr><td>Starship Troopers&nbsp;</td>
+				<td>130&nbsp;</td>
+				<td>1997&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>Terminator 1&nbsp;</td>
+				<td>107&nbsp;</td>
+				<td>1984&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>Terminator 2 : Judgment Day&nbsp;</td>
+				<td>156&nbsp;</td>
+				<td>1991&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>Total Recall&nbsp;</td>
+				<td>113&nbsp;</td>
+				<td>1990&nbsp;</td>
+				<td>R&nbsp;</td></tr>
+			<tr><td>War of the Worlds&nbsp;</td>
+				<td>116&nbsp;</td>
+				<td>2005&nbsp;</td>
+				<td>PG-13&nbsp;</td></tr>
+			</tbody>
+		</table>
+		
+		<br />
+		<div id="selection"></div>
+	</div>
+</div>
+
+</body>
+</html>

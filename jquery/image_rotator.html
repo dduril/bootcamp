@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Web Development</title>
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="assets/stylesheets/base.css">
+	<link rel="stylesheet" href="assets/stylesheets/skeleton.css">
+	<link rel="stylesheet" href="assets/stylesheets/layout.css">
+	<link rel="stylesheet" href="assets/stylesheets/docs.css">
+
+	<!-- Favicon
+	================================================== -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+	
+	<script src="assets/js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript">
+		$("document").ready(function(){
+				setInterval("rotateImages()", 2000);
+			});	
+			
+			function rotateImages(){
+				var currPhoto = $("#photoShow div.current");
+				var nextPhoto = currPhoto.next();
+				if(nextPhoto.length == 0){
+					nextPhoto = $("#photoShow div:first");
+				}
+				currPhoto.removeClass('current').addClass('previous');
+				nextPhoto.css({ opacity: 0.0 }).addClass('current').animate({ opacity: 1.0 }, 1000, 
+					function(){
+						currPhoto.removeClass('previous');
+					});
+			}
+		
+	</script>
+	<style type="text/css">
+	#photoShow{
+		height: 300px;
+		width: 400px;
+	}
+	
+	#photoShow div{
+		position: absolute;
+		z-index: 0;
+	}
+	
+	#photoShow div.previous{
+		z-index: 1;
+	}
+	
+	#photoShow div.current{
+		z-index: 2;
+	}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<div class="twelve columns offset-by-one content">
+	
+		<h2>Image Rotator</h2>
+		<div id="photoShow">
+			<div class="current">
+				<img src="images/train_1.jpg" class="gallery" alt="" width="400" height="300" />
+			</div>
+			<div>
+				<img src="images/train_2.jpg" class="gallery" alt="" width="400" height="300" />
+			</div>
+			<div>
+				<img src="images/train_3.jpg" class="gallery" alt="" width="400" height="300" />
+			<div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+		
+
+
+
