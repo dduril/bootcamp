@@ -15,6 +15,8 @@ Links to programming languages and tools for getting started:
 
 #### Java IDEs
 
+- **<a href="https://developer.android.com/studio/index.html" target="_blank" title="Android Studio">Android Studio</a>**
+- **<a href="http://www.bluej.org/" target="_blank" title="BlueJ">BlueJ</a>**
 - **<a href="https://eclipse.org/" target="_blank" title="Eclipse">Eclipse</a>**
 - **<a href="https://www.jetbrains.com/idea/" target="_blank" title="IntelliJ">IntelliJ</a>**
 - **<a href="http://www.oracle.com/technetwork/developer-tools/jdev/overview/index.html" target="_blank" title="JDeveloper">JDeveloper</a>**
