@@ -59,16 +59,26 @@ Links to programming languages and tools for getting started:
 - **<a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a>**
 - **<a href="https://rubygems.org/" target="_blank">Ruby Gems</a>**
 
-#### Ruby Development Environments (IDE)
-
-- **<a href="http://www.aptana.com/" target="_blank">Aptana Studio</a>**
-- **<a href="https://www.jetbrains.com/ruby/" target="_blank">RubyMine</a>**
-- **<a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a>**
-
 #### Rails
 
 - **<a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a>**
 - **<a href="http://guides.rubyonrails.org/getting_started.html" target="_blank">RailsGuides</a>**
+
+#### Ruby Development Environments
+
+- **<a href="http://www.activestate.com/komodo-ide" target="_blank">ActiveState Komodo IDE</a>**
+- **<a href="http://www.aptana.com/products/radrails.html" target="_blank">Aptana RadRails</a>**
+- **<a href="https://www.jetbrains.com/ruby/" target="_blank">Jetbrains RubyMine</a>**
+
+
+
+---
+
+#### Text Editors
+
+- **<a href="http://brackets.io/" target="_blank">Brackets</a>**
+- **<a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a>**
+- **<a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a>**
 
 ---
 
