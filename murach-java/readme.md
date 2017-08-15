@@ -1,6 +1,6 @@
-# Bootcamp
+# Java
 
-Based on Murach's Java Programming, 5th Edition.
+Based on Murach's Java Programming, 5th Edition and using JDK 8, NetBeans IDE 8.2
 
 ### Getting Started
 

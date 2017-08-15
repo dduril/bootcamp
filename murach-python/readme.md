@@ -1,6 +1,6 @@
-# Bootcamp
+# Python
 
-Based on examples from Murach's Python Programming.
+Based on examples from Murach's Python Programming and using Python 3.4.1.
 
 ### Getting Started
 
