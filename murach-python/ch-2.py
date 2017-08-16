@@ -1,3 +1,5 @@
+# Chapter 2 Code Examples
+
 # script with 3 statements
 print("Hello World!")
 print()
@@ -79,28 +81,3 @@ price = float(input("Enter price: "))
 miles_driven = 150
 gallons_used = 5.875
 mpg = round(miles_driven / gallons_used, 2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

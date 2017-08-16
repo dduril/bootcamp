@@ -1,3 +1,5 @@
+# Chapter 1 Example
+
 import sys
 
 print("Test Python 3 Installation")
