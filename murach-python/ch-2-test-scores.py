@@ -1,21 +1,27 @@
-# This is a tutorial program that illustrates the use of
-# the while and if statements
+#!/usr/bin/env python3
 
-# initialize variables
-counter = 0
-score_total = 0
-test_score = 0
+# display a welcome message
+print("The Test Scores program")
+print()
+print("Enter 3 test scores")
+print("======================")
 
-# get scores
-while test_score != 999:
-    test_score = int(input("Enter test score: "))
-    if test_score >= 0 and test_score <= 100:
-        score_total += test_score
-        counter += 1
+# get scores from the user
+#total_score = 0  # initialize the variable for accumulating scores
+score1 = int(input("Enter test score: "))
+score2 = int(input("Enter test score: "))
+score3 = int(input("Enter test score: "))
+
+# calculate the total score
+total_score = score1 + score2 + score3
 
 # calculate average score
-average_score = round(score_total / counter)
+average_score = round(total_score / 3)
 
-# display the results
-print("Total Score: " + str(score_total))
-print("Average Score: " + str(average_score))
+# format and display the result
+print("======================")
+print("Your Scores:   " + str(score1) + " " + str(score2) + " " + str(score3))
+print("Total Score:  ", total_score,
+      "\nAverage Score:", average_score)
+print()
+print("Bye")
