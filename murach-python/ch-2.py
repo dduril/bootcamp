@@ -34,7 +34,7 @@ counter += 1
 # assigning strings to variables
 first_name = "John"
 last_name = "Smith"
-full_name = "Mr. Anderson"
+full_name = "John Smith"
 
 # concatenating strings together
 name = first_name + " " + last_name
@@ -52,10 +52,10 @@ print("Total Score: "
       + str(average_score))
 
 # new line character
-print("Title: Python Programming\nQuantity: 10")
+print("Title: Python Programming\nQuantity: 25")
 
 # tab and new line characters
-print("Title:\t\tPython Programming\nQuantity:\t10")
+print("Title:\t\tPython Programming\nQuantity:\t25")
 
 # backslash in a Windows path
 print("C:\\development\\python\\examples")
