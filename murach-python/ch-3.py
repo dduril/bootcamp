@@ -61,4 +61,27 @@ else:
     print("Customer type must be 'm' or 't'.")
     is_valid = False
 
+# while loop example
+choice = "y"
+while choice.lower() == "y":
+    print("Hello!")
+    choice = input("Say hello again (y/n): ")
+print("Bye!")
 
+# another while loop example
+counter = 0
+while counter < 10:
+    print(counter, end=" ")
+    counter += 1
+print("\nWhile loop ended.")
+
+# range() function
+range(5)            # 0, 1, 2, 3, 4
+range(1, 5)         # 1, 2, 3, 4, 5
+range(2, 10, 2)     # 2, 4, 6, 8
+range(5, 0 -1)      # 5, 4, 3, 2, 1
+
+# for loop
+for i in range(10):
+    print(i, end=" ")
+print("For loop ended.")
