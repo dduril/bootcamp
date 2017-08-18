@@ -1,10 +1,12 @@
 # Bootcamp
 
-Having upgraded to a Premium LinkedIn account, I had access to the Lynda.com library of courses. These courses are well produced and cover a spectrum of topics including software engineering and web programming.
+Having upgraded to a Premium LinkedIn account, I had access to the Lynda.com library of courses. These courses are well produced and cover a spectrum of topics in programming and web development.
 
-This repo is based on the 'Essentials' line of courses and serves as a bootcamp for a variety of popular programming languages. 
+Some of this repo is based on the 'Essentials' line of courses and serves as a bootcamp for a variety of popular programming languages. 
 
 The focus here is in developing primers on getting started, recommended code editors, language syntax, data types, objects, control structures (selection and iteration), exception handling, debugging, and best practices.
+
+More recently, a few new folders were added for a study of Murach's Java Programming and Murach's Python Programming.
 
 ### Getting Started
 
