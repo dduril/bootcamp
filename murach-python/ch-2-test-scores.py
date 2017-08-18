@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 
+# -------------------------------------
+# Test Scores Program
+# Murach's Python Programming
+# Chapter 2 Exercises
+# -------------------------------------
+
 # display a welcome message
-print("The Test Scores program")
+print("The Test Scores Program")
 print()
 print("Enter 3 test scores")
 print("======================")

@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 
+# -------------------------------------
+# Area and Perimeter Program
+# Murach's Python Programming
+# Chapter 2 Exercises
+# -------------------------------------
+
 # display a welcome message
-print("The Area and Perimeter program")
+print("The Area and Perimeter Program")
 print()
 
 # get input from the user

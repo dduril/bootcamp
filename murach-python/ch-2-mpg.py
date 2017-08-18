@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 
+# -------------------------------------
+# Miles Per Gallon Program
+# Murach's Python Programming
+# Chapter 2 Exercises
+# -------------------------------------
+
 # display a welcome message
-print("The Miles Per Gallon program")
+print("The Miles Per Gallon Program")
 print()
 
 # get input from the user
