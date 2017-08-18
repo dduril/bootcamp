@@ -52,10 +52,10 @@ print("Total Score: "
       + str(average_score))
 
 # new line character
-print("Title: Python Programming\nQuantity: 25")
+print("Title: Python Cookbook\nQuantity: 5")
 
 # tab and new line characters
-print("Title:\t\tPython Programming\nQuantity:\t25")
+print("Title:\t\tPython Cookbook\nQuantity:\t5")
 
 # backslash in a Windows path
 print("C:\\development\\python\\examples")

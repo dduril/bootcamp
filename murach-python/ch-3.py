@@ -17,14 +17,14 @@ if age >= 18:
 if age >= 18:
     print("You are eligible to vote.")
 else:
-    print("You are too young to vote.")
+    print("You are not eligible to vote.")
 
 # if statement with elif and else clauses
-invoice_total = 450
+invoice_total = 950
 discount_percent = 0
-if invoice_total >= 500:
+if invoice_total >= 1000:
     discount_percent = .2
-elif invoice_total >= 250:
+elif invoice_total >= 500:
     discount_percent = .1
 elif invoice_total > 0:
     discount_percent = 0
@@ -32,7 +32,7 @@ else:
     print("Invoice total must be greater than zero.")
 
 # if statement used for grading
-score = int(input("Enter test score: "))
+score = int(input("Enter a test score: "))
 if score >= 90:
     grade = "A"
 elif score >= 80:
@@ -45,20 +45,20 @@ else:
     grade = "F"
 
 # if statement that validates a range of a score
-score = int(input("Enter test score: "))
+score = int(input("Enter a test score: "))
 total_score = 0
 if score >= 0 and score <= 100:
     total_score += score
 else:
-    print("Test score must be between 0 and 100.")
+    print("Test scores must be between 0 and 100.")
 
 # if statement that validates the customer type
 is_valid = True
-customer_type = input("Enter customer type (r/w): ")
-if customer_type.lower() == "r" or customer_type.lower() == "w":
+customer_type = input("Enter a customer type (m/t): ")
+if customer_type.lower() == "m" or customer_type.lower() == "t":
     pass
 else:
-    print("Customer type must be 'r' or 'w'.")
+    print("Customer type must be 'm' or 't'.")
     is_valid = False
 
 
