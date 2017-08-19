@@ -65,9 +65,11 @@ More recently, a few new folders were added for a study of Murach's Java Program
 
 #### Text Editors
 
+- **[Aptana Studio 3](http://www.aptana.com/)**
 - **[Brackets](http://brackets.io/)**
 - **[Notepad++](https://notepad-plus-plus.org/)**
 - **[Sublime Text](https://www.sublimetext.com/)**
+- **[Visual Studio Code](https://code.visualstudio.com/)**
 
 #### Cloud
 
