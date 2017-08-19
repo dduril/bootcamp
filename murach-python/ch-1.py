@@ -1,5 +1,6 @@
-# Chapter 1 Code Example
-
+# -------------------------------------
+# Chapter 1 Code Examples
+# -------------------------------------
 import sys
 
 print("Test Python 3.4.1 Installation")

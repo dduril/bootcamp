@@ -1,7 +1,9 @@
+# -------------------------------------
 # Chapter 2 Code Examples
+# -------------------------------------
 
 # script with 3 statements
-print("Hello World!")
+print("Hello Python!")
 print()
 print("Bye!")
 
@@ -52,13 +54,13 @@ print("Total Score: "
       + str(average_score))
 
 # new line character
-print("Title: Python Cookbook\nQuantity: 5")
+print("Title: Python Programming\nPublished: 2017")
 
 # tab and new line characters
-print("Title:\t\tPython Cookbook\nQuantity:\t5")
+print("Title:\t\tPython Programming\nPublished:\t2017")
 
 # backslash in a Windows path
-print("C:\\development\\python\\examples")
+print("C:\\development\\python\\io\\examples")
 
 # print() function examples
 print(19.99)

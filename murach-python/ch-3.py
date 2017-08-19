@@ -1,4 +1,6 @@
+# -------------------------------------
 # Chapter 3 Code Examples
+# -------------------------------------
 
 # lower() method used to compare strings
 string1 = "John"
@@ -9,18 +11,18 @@ print(string1)
 print(string2)
 
 # if statement
-age = 20
-if age >= 18:
-    print("You are eligible to vote.")
+height = 48
+if height >= 42:
+    print("You may ride the roller coaster.")
 
 # if statement with an else clause
-if age >= 18:
-    print("You are eligible to vote.")
+if height >= 18:
+    print("You may ride the roller coaster.")
 else:
-    print("You are not eligible to vote.")
+    print("You must be a little bit taller.")
 
 # if statement with elif and else clauses
-invoice_total = 950
+invoice_total = 900
 discount_percent = 0
 if invoice_total >= 1000:
     discount_percent = .2
@@ -35,14 +37,19 @@ else:
 score = int(input("Enter a test score: "))
 if score >= 90:
     grade = "A"
+    comment = "Excellent"
 elif score >= 80:
     grade = "B"
+    comment = "Good"
 elif score >= 70:
     grade = "C"
+    comment = "Average"
 elif score >= 60:
     grade = "D"
+    comment = "Below average"
 else:
     grade = "F"
+    comment = ":("
 
 # if statement that validates a range of a score
 score = int(input("Enter a test score: "))
@@ -54,11 +61,11 @@ else:
 
 # if statement that validates the customer type
 is_valid = True
-customer_type = input("Enter a customer type (m/t): ")
-if customer_type.lower() == "m" or customer_type.lower() == "t":
+customer_type = input("Enter a customer type (w/r): ")
+if customer_type.lower() == "w" or customer_type.lower() == "r":
     pass
 else:
-    print("Customer type must be 'm' or 't'.")
+    print("Customer type must be 'w' or 'r'.")
     is_valid = False
 
 # while loop example
