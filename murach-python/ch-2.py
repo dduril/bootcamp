@@ -8,14 +8,18 @@ print()
 print("Bye!")
 
 # initialize variables and assign values
-first_name = "John"
+product_name = "Toaster"
 quantity1 = 25
 quantity2 = 42
 list_price = 10.99
 
 # naming conventions for variables
-variable_name = 1       # underscore notation
-variableName = 2        # camel case
+product_code = 1       # underscore notation
+productCode = 2        # camel case
+
+# another example
+department_name = "Accounting"
+departmentName = "Accounting"
 
 # code that calculates sales tax
 subtotal = 100.00
@@ -49,9 +53,9 @@ message = name + " is " + str(age) + " years old."
 score_total = 370
 average_score = 92.5
 print("Total Score: "
-    + str(score_total)
-    + "\nAverage Score: "
-    + str(average_score))
+      + str(score_total)
+      + "\nAverage Score: "
+      + str(average_score))
 
 # new line character
 print("Title: Python Programming\nPublished: 2017")
