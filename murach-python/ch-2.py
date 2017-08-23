@@ -69,15 +69,16 @@ print("C:\\development\\python\\io\\examples")
 # print() function examples
 print(19.99)
 print("Price", 19.99)
-print(1, 2, 3, 4, 5)
+print(1, 2, 3, 4, 5, 6, 7, 8)
 print("Total Score:", score_total, "\nAverage Score:", average_score)
 print("Total Score: " + str(score_total) + "\nAverage Score: " + str(average_score))
-print(1, 2, 3, 4, 5, sep=' | ')
-print(1, 2, 3, 4, 5, end='Done')
+print(1, 2, 3, 4, 5, 6, 7, 8, sep=' | ')
+print(1, 2, 3, 4, 5, 6, 7, 8, end='Done')
 
 # getting string input from a user
-first_name = input("Enter your first_name: ")
-print("Hello, " + first_name + ".")
+first_name = input("Enter your first name: ")
+last_name = input("enter you last name: ")
+print("Hello " + first_name + " " + last_name + ".")
 
 # getting int or float input from a user
 quantity = int(input("Enter quantity: "))

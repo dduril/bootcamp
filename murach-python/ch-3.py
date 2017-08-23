@@ -5,13 +5,13 @@
 # lower() method used to compare strings
 string1 = "John"
 string2 = "john"
-string1 == string2                  # False
-string1.lower() == string2.lower()  # True
+# string1 == string2                  # False
+# string1.lower() == string2.lower()  # True
 print(string1)
 print(string2)
 
 # if statement
-height = 48
+height = 44
 if height >= 42:
     print("You may ride the roller coaster.")
 
