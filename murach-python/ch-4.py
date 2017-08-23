@@ -1,5 +1,6 @@
 # -------------------------------------
 # Chapter 4 Code Examples
+#   Functions and Modules
 # -------------------------------------
 
 import random

@@ -1,5 +1,6 @@
 # -------------------------------------
 # Chapter 2 Code Examples
+#   Basics
 # -------------------------------------
 
 # script with 3 statements

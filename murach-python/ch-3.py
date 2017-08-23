@@ -1,5 +1,6 @@
 # -------------------------------------
 # Chapter 3 Code Examples
+#   Control Statements
 # -------------------------------------
 
 # lower() method used to compare strings
