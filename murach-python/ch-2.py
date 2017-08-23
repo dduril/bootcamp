@@ -49,9 +49,9 @@ message = name + " is " + str(age) + " years old."
 score_total = 370
 average_score = 92.5
 print("Total Score: "
-      + str(score_total)
-      + "\nAverage Score: "
-      + str(average_score))
+    + str(score_total)
+    + "\nAverage Score: "
+    + str(average_score))
 
 # new line character
 print("Title: Python Programming\nPublished: 2017")
