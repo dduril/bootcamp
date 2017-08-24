@@ -1,6 +1,6 @@
 # Java
 
-Based on Murach's **[Java Programming, 5th Edition](https://www.murach.com/shop/murach-s-java-programming-5th-edition-detail)**, using JDK 8 and NetBeans IDE 8.2.
+Based on **[Murach's Java Programming, 5th Edition](https://www.murach.com/shop/murach-s-java-programming-5th-edition-detail)**, using JDK 8 and NetBeans IDE 8.2.
 
 ### Getting Started
 

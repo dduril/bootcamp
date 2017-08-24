@@ -89,6 +89,9 @@ range(1, 5)         # 1, 2, 3, 4, 5
 range(2, 10, 2)     # 2, 4, 6, 8
 range(5, 0, -1)      # 5, 4, 3, 2, 1
 
+# break and continue statements
+
+
 # for loop
 for i in range(10):
     print(i, end=" ")
