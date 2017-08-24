@@ -90,6 +90,32 @@ range(2, 10, 2)     # 2, 4, 6, 8
 range(5, 0, -1)      # 5, 4, 3, 2, 1
 
 # break and continue statements
+print("Enter 'exit' when completed.\n")
+while True:
+    data = input("Enter an integer to cube: ")
+    if data == "exit":
+        break
+    i = int(data)
+    print(i, " squared is ", i * i * i, "\n")
+print("Done.")
+
+more = "y"
+while more.lower() == "y":
+    length = int(input("Enter length: "))
+    width = int(input("Enter width: "))
+
+    # validate input
+    if length <= 0 or width <= 0:
+        print("Both length and width should be positive integers. Try again.\n")
+        continue
+
+    perimeter = (2 * length) + (2 * width)
+    print("Perimeter", perimeter, "\n")
+
+    more = input("Continue? (y/n): ")
+    print()
+
+print("Done.")
 
 
 # for loop
