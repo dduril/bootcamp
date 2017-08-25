@@ -10,9 +10,11 @@ Based on **[Murach's MySQL, 2nd Edition](https://www.murach.com/shop/murach-s-my
 - **[MySQL Developer Zone](https://dev.mysql.com/)**
 - **[MySQL 5.7 Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/)**
 
-#### Tools
+#### MySQL Tools
 
+- **[MySQL Tools](https://dev.mysql.com/downloads/tools/)**
 - **[MySQL Workbench](https://dev.mysql.com/downloads/workbench/)**
+- **[Utilities](https://dev.mysql.com/downloads/utilities/)**
  
  
 
