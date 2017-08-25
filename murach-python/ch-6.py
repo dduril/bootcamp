@@ -5,7 +5,7 @@
 
 
 # lists
-scores = [85, 92, 88, 94, 98]
+scores = [85, 92, 88, 94, 98, 90]
 fruits = ["apples", "bananas", "oranges", "pears"]
 book = ["Thinking, Fast and Slow", 2011, 499, 16.00]
 movies = []
@@ -38,3 +38,28 @@ for f in fruits:
     print(f)
 print()
 
+# insert() method
+fruits.insert(2, "cherries")
+
+# pop() method
+i = fruits.index("strawberries")
+fruits.pop(i)
+
+# cherries inserted, strawberries removed
+for f in fruits:
+    print(f)
+print()
+
+# len() method
+x = len(fruits)
+print("Length of fruits[]: ", x, "\n")
+
+# alternative way to print list
+print(fruits, "\n")
+
+# process a list
+# defined above: scores = [85, 92, 88, 94, 98, 90]
+total = 0
+for score in scores:
+    total += score
+print("total: ", total, "\n")
