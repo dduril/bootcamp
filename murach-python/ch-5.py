@@ -7,7 +7,7 @@
 # use of the print() function to trace execution
 def calculate_future_value(monthly_investment, yearly_interest, years):
 
-    # trace execution
+    # tracing execution
     print("Entering calculate_future_value()")
 
     # convert yearly values to monthly values
@@ -21,7 +21,10 @@ def calculate_future_value(monthly_investment, yearly_interest, years):
         monthly_interest = future_value * monthly_interest_rate
         future_value += monthly_interest
 
-        # trace execution
-        print("i = ", i, " future value ", future_value)
+        # tracing execution
+        print("i: ", i, " future value: ", future_value)
+
+    # tracing execution
+    print("Exiting calculate_future_value()")
 
     return future_value
