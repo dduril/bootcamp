@@ -63,3 +63,24 @@ total = 0
 for score in scores:
     total += score
 print("total: ", total, "\n")
+
+# list of lists
+books = [
+    ["Thank You for Being Late", 2016, 486],
+    ["Only Humans Need Apply", 2016, 276],
+    ["Rise of the Robots", 2015, 334]
+]
+
+new_book = []
+new_book.append("The Inevitable")
+new_book.append(2016)
+new_book.append(328)
+books.append(new_book)
+
+print(books)
+print()
+
+for book in books:
+    for item in book:
+        print(item, end=" | ")
+    print()
