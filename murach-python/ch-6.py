@@ -3,6 +3,8 @@
 #   Lists and Tuples
 # -------------------------------------
 
+import copy
+import random
 
 # lists
 scores = [85, 92, 88, 94, 98, 90]
@@ -84,3 +86,42 @@ for book in books:
     for item in book:
         print(item, end=" | ")
     print()
+
+num_list = [8, 18, 16, 74, 2, 17, 5, 44, 9, 12, 15, 35, 12, 28]
+print(num_list, "\n")
+
+
+# count() method
+x = 12
+count = num_list.count(x)
+print("Count instance of ", x, ": ", count, "\n")
+
+# reverse() method
+num_list.reverse()
+print("reverse num_list: ", num_list, "\n")
+
+# sort() method
+num_list.sort()
+print("sort num_list: ", num_list, "\n")
+
+# sorted() method
+pizza_toppings = ["mushroom", "onion", "pepperoni", "extra-cheese", "pineapple", "black olives", "sausage", "veggies"]
+sorted_pizza_toppings = sorted(pizza_toppings)
+print(sorted_pizza_toppings, "\n")
+
+# min(), max() functions
+minimum = min(num_list)
+maximum = max(num_list)
+
+# choice(), shuffle() functions
+choice = random.choice(num_list)
+random.shuffle(num_list)
+
+# deepcopy() functions
+list_1 = [1, 2, 3, 4, 5, 6, 7, 8]
+list_2 = copy.deepcopy(list_1)
+list_2[3] = 9
+print(list_1, "\n")
+print(list_2, "\n")
+
+# tuples
