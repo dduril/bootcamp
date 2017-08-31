@@ -62,3 +62,31 @@ SELECT order_date,
     DATE_FORMAT(order_date, '%e-%b-%Y') AS 'DD-Mon-YYYY'
 FROM orders
 LIMIT 10;
+
+-- change back to 'ap'
+USE ap;
+
+SELECT vendor_city, vendor_state
+FROM vendors
+ORDER BY vendor_city;
+
+/* DISTINCT */
+SELECT DISTINCT vendor_city, vendor_state
+FROM vendors
+ORDER BY vendor_city;
+
+/* WHERE IN */
+SELECT vendor_name, vendor_city, vendor_state
+FROM vendors
+WHERE vendor_state IN ('CA', 'OR', 'WA', 'NV')
+ORDER BY vendor_state, vendor_name;
+
+/* LIKE */
+SELECT vendor_name, vendor_city, vendor_state
+FROM vendors
+WHERE vendor_city LIKE 'San%'
+ORDER BY vendor_city;
+
+
+
+
