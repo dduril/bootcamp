@@ -125,3 +125,6 @@ print(list_1, "\n")
 print(list_2, "\n")
 
 # tuples
+nums = (10.8, 15.2, 18.5, 24.7, 32.9)
+ingredients = ("garlic", "olive oil", "salt", "pepper", "tomatoes")
+movie = ("Star Wars", "Episode IV: A New Hope", 1977, 123, "PG", "Science Fiction")
