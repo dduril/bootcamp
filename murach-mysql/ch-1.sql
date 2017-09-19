@@ -1,7 +1,10 @@
 /*
-MySQL Examples - Getting Started
-Chapter 1
-*/
+ * ----------------------------------------------
+ * Murach's MySQL 2nd Edition
+ * Chapter 1 - Getting Started
+ * SQL Examples - Excerpts and Practice
+ * ----------------------------------------------
+ */
 
 -- select database
 USE ap;
