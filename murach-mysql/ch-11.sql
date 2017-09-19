@@ -1,5 +1,6 @@
 /*
  * ----------------------------------------------
- * MySQL Examples - Creating Databases and Tables
+ * MySQL Examples - Creating Databases, Tables,
+ *                  and Indexes
  * ----------------------------------------------
  */

@@ -1,5 +1,5 @@
 /*
  * ----------------------------------------------
- * MySQL Examples - SELECT and JOIN Statements
+ * MySQL Examples - JOIN Statements
  * ----------------------------------------------
  */

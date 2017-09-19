@@ -1,5 +1,6 @@
 /*
  * ----------------------------------------------
- * MySQL Examples - Transactions and Locking
+ * MySQL Examples - Triggers and Events
  * ----------------------------------------------
  */
+ 
