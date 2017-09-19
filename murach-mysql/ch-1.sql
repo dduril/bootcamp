@@ -1,8 +1,6 @@
 /*
  * ----------------------------------------------
- * Murach's MySQL 2nd Edition
- * Chapter 1 - Getting Started
- * SQL Examples - Excerpts and Practice
+ * MySQL Examples - Getting Started
  * ----------------------------------------------
  */
 
