@@ -1,7 +1,8 @@
 /*
-MySQL Examples - SELECT Statements
-Chapter 3
-*/
+ * ----------------------------------------------
+ * MySQL Examples - SELECT Statements
+ * ----------------------------------------------
+ */
 
 -- select database 'ap'
 USE ap;

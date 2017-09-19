@@ -1,4 +1,5 @@
 /*
-MySQL Examples - Creating Databases and Tables
-Chapter 11
-*/
+ * ----------------------------------------------
+ * MySQL Examples - Creating Databases and Tables
+ * ----------------------------------------------
+ */

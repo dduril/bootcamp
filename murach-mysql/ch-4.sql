@@ -1,4 +1,5 @@
 /*
-MySQL Examples - SELECT and JOIN Statements
-Chapter 4
-*/
+ * ----------------------------------------------
+ * MySQL Examples - SELECT and JOIN Statements
+ * ----------------------------------------------
+ */

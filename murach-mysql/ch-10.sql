@@ -1,4 +1,5 @@
 /*
-MySQL Examples - Database Design
-Chapter 10
-*/
+ * ----------------------------------------------
+ * MySQL Examples - Database Design
+ * ----------------------------------------------
+ */

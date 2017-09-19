@@ -1,7 +1,9 @@
 /*
-MySQL Examples - MySQL Workbench and MySQL Command Line Client
-Chapter 2
-*/
+ * ----------------------------------------------
+ * MySQL Examples - MySQL Workbench and MySQL 
+ *                  Command Line Client
+ * ----------------------------------------------
+ */
 
 SELECT vendor_name 
 FROM vendors;

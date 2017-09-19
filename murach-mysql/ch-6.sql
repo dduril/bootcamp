@@ -1,4 +1,5 @@
 /*
-MySQL Examples - Summary Queries
-Chapter 6
-*/
+ * ----------------------------------------------
+ * MySQL Examples - Summary Queries
+ * ----------------------------------------------
+ */

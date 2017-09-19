@@ -1,4 +1,5 @@
 /*
-MySQL Examples - Stored Programs
-Chapter 13
-*/
+ * ----------------------------------------------
+ * MySQL Examples - Stored Programs
+ * ----------------------------------------------
+ */

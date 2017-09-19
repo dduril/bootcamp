@@ -1,4 +1,5 @@
 /*
-MySQL Examples - Transactions
-Chapter 14
-*/
+ * ----------------------------------------------
+ * MySQL Examples - Transactions
+ * ----------------------------------------------
+ */
