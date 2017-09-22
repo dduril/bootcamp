@@ -6,7 +6,11 @@ Some of this repo is based on the 'Essentials' line of courses and serves as a b
 
 The focus here is in developing primers on getting started, recommended code editors, language syntax, data types, objects, control structures (selection and iteration), exception handling, debugging, and best practices.
 
-More recently, a few new folders were added for a study of Murach's Java Programming and Murach's Python Programming. I've been typing up code examples from these books to develop some muscle memory with Java and Python. This way I can drill in the language's syntax and keep my programming skills up to date on the basics.
+More recently, a few new folders were added for studies from: Murach's Java Programming, Murach's MySQL, and Murach's Python Programming. I'm a fan of the Murach approach - oversize book with large print and on every page a new lesson - the left side has the text, the right side has the code. Each chapter provides an easy to follow step-by-step tutorial for a particular topic.
+
+I've been typing up some of the samples from these books to keep my Java, Python, and MySQL coding skills up to date. In some cases I just type up and run the examples. In other cases, I'll make modifications or extensions to the examples to apply what I'm learning. To round things out, script headers, comments and documentation are added.
+
+This helps develop muscle memory and practice using a variety of language tools and editors for these languages/environments.
 
 ### Getting Started
 
