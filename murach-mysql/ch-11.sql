@@ -5,6 +5,7 @@
  * ----------------------------------------------
  */
  
+-- CREATE DATABASE examples
 CREATE DATABASE ap;
 
 CREATE DATABASE IF NOT EXISTS ap;
@@ -13,9 +14,12 @@ DROP DATABASE ap;
 
 DROP DATABASE IF EXISTS ap;
 
+
+-- USE database example
 USE ap;
 
 
+-- CREATE TABLE examples
 CREATE TABLE vendors
 (
   vendor_id     INT            NOT NULL    UNIQUE AUTO_INCREMENT,
@@ -33,6 +37,7 @@ CREATE TABLE invoices
 )
 
 
+-- ALTER TABLE examples
 ALTER TABLE vendors
 ADD last_transaction_date DATE;
 
@@ -41,7 +46,6 @@ DROP COLUMN last_transaction_date;
 
 ALTER TABLE vendors
 MODIFY vendor_name VARCHAR(100) NOT NULL DEFAULT 'New Vendor';
-
 
 ALTER TABLE vendors
 ADD PRIMARY KEY (vendor_id);
@@ -57,6 +61,7 @@ ALTER TABLE invoices
 DROP FOREIGN KEY invoices_fk_vendors;
 
 
+-- CREATE INDEX examples
 CREATE INDEX invoices_invoice_date_ix
   ON invoices (invoice_date);
   
@@ -72,6 +77,7 @@ CREATE INDEX invoices_invoice_total_ix
 DROP INDEX vendors_vendor_phone_ix ON vendors;
 
 
+-- RENAME, TRUNCATE, DROP
 RENAME TABLE vendors TO vendor;
 
 TRUNCATE TABLE vendor;
@@ -79,6 +85,7 @@ TRUNCATE TABLE vendor;
 DROP TABLE vendor;
 
 
+-- SHOW properties examples
 SHOW CHARSET;
 
 SHOW CHARSET LIKE 'latin1';
