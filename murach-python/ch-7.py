@@ -32,10 +32,22 @@ with open("authors.txt") as file:
 
 # write and read a list of strings
 # write the items in a list to a file
+movies = ["Casablanca", "It's a Wonderful Life", "Rear Window"]
+with open("movies.txt", "w") as file:
+    for m in movies:
+        file.write(m + "\n")
 
 # read the lines in a file into a list
+movies = []
+with open("movies.txt") as file:
+    for line in file:
+        line = line.replace("\n", "")
+        movies.append(line)
+print(movies)
 
 # write and read a list of numbers
 # write the items in a list to a file
+years = [2001, 2010, 2061, 3001]
+#with open("SpaceOdyssey.txt", "w") as file
 
 # read the items in a list from a file
