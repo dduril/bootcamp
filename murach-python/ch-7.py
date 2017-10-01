@@ -90,3 +90,15 @@ with open("star-wars-movies.txt", newline="") as file:
 
 # Working with binary files
 # -------------------------------------
+
+# import the pickle module
+import pickle
+
+# write an object to a binary file
+with open("movies.bin", "rb") as file:
+    pickle.dump(movies, file)
+
+# read an object from a binary file
+with open("movies.bin", "rb") as file:
+    movie_list = pickle.load(file)
+    print(movie_list)
