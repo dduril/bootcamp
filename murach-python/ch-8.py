@@ -86,7 +86,7 @@ def get_movies(filename):
         log_exception(e)
         raise e
 
-        
+
 def log_exception(e):
     # do something here to log exception
     pass
