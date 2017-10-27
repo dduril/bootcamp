@@ -8,4 +8,8 @@ This project contains basic information on jQuery and how to get started.
 
 #### Installation
 
+- CDN
+- Direct download
+- Use Node.js and npm
+
 #### Basic Example
