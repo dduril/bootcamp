@@ -1,6 +1,6 @@
 # Bootcamp
 
-Having upgraded to a Premium LinkedIn account, I had access to the Lynda.com library of courses. These courses are well produced and cover a spectrum of topics in programming and web development.
+Having upgraded to a Premium LinkedIn account (in the past), I had access to the Lynda.com library of courses. These courses are well produced and cover a wide spectrum of topics including programming, databases, design, and software project management. There is also something of an emphasis on front end web development - Angular, Bootstrap, node.js, npm, Bower, Gulp, Grunt, responsive web design and progressive web apps.
 
 Some of the contents/folders within this repo are based on the 'Essentials' line of courses (at Lynda.com). The idea is to have a living document of coding practice - or bootcamp for a variety of programming languages, frameworks and tools. 
 
