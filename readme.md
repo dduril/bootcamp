@@ -2,15 +2,13 @@
 
 Having upgraded to a Premium LinkedIn account, I had access to the Lynda.com library of courses. These courses are well produced and cover a spectrum of topics in programming and web development.
 
-Some of this repo is based on the 'Essentials' line of courses and serves as a bootcamp for a variety of popular programming languages. 
+Some of the contents/folders within this repo are based on the 'Essentials' line of courses (at Lynda.com). The idea is to have a living document of coding practice - or bootcamp for a variety of programming languages, frameworks and tools. 
 
-The focus here is in developing primers on getting started, recommended code editors, language syntax, data types, objects, control structures (selection and iteration), exception handling, debugging, and best practices.
+The focus is on developing quick guides for getting started, how to use code editors, language syntax, data types, objects, control structures (selection and iteration), exception handling, debugging, and best practices.
 
 More recently, a few new folders were added for studies from: Murach's Java Programming, Murach's MySQL, and Murach's Python Programming. I'm a fan of the Murach approach - oversize book with large print and on every page a new lesson - the left side has the text, the right side has the code. Each chapter provides an easy to follow step-by-step tutorial for a particular topic.
 
 I've been typing up some of the samples from these books to keep my Java, Python, and MySQL coding skills up to date. In some cases I just type up and run the examples. In other cases, I'll make modifications or extensions to the examples to apply what I'm learning. To round things out, script headers, comments and documentation are added.
-
-This helps develop muscle memory and practice using a variety of language tools and editors for these languages/environments.
 
 ### Getting Started
 
@@ -28,6 +26,15 @@ This helps develop muscle memory and practice using a variety of language tools 
 - **[NetBeans](https://netbeans.org/downloads/)**
 	- **[Downloads](https://netbeans.org/downloads/)**
 	- **[Documentation](https://netbeans.org/kb/index.html)** 
+
+#### HTML/HTML5
+
+- **[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)**
+
+#### CSS/CSS3
+
+- **[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)**
+- **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)**
 
 #### JavaScript
 
