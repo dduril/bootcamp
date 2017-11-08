@@ -10,7 +10,7 @@ More recently, a few new folders were added for studies from: Murach's Java Prog
 
 I've been typing up some of the samples from these books to keep my Java, Python, and MySQL coding skills up to date. In some cases I just type up and run the examples. In other cases, I'll make modifications or extensions to the examples to apply what I'm learning. To round things out, script headers, comments and documentation are added.
 
-### Getting Started
+### Contents
 
 #### Java
 
@@ -44,6 +44,10 @@ I've been typing up some of the samples from these books to keep my Java, Python
 
 - **[jQuery](https://jquery.com/)**
 - **[jQueryUI](https://jqueryui.com/)**
+
+#### Bootcamp
+
+- **[Bootstrap 4 (Currently v4.0.0-beta.2)](http://getbootstrap.com/)**
 
 #### Node.js
 
@@ -84,6 +88,7 @@ I've been typing up some of the samples from these books to keep my Java, Python
 
 #### Cloud
 
+- **[Amazon Web Services](https://aws.amazon.com/)**
 - **[Cloud9](https://c9.io/)** - online IDE for Ruby on Rails Development
 - **[Heroku](https://www.heroku.com/)**
 
