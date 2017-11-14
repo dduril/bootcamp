@@ -6,6 +6,8 @@
 # import the locale and math modules
 import locale as lc
 import math as m
+from decimal import Decimal
+from decimal import ROUND_HALF_UP
 
 # example with floating-point error
 balance = 100.10
@@ -76,4 +78,42 @@ print("{:.4e}".format(fp_number), "\n")
 lc.setlocale(lc.LC_ALL, "us")
 print(lc.currency(12345.25, grouping=True))
 print(lc.format("%d", 12345, grouping=True))
-print(lc.format("%.2f", 12345.45, grouping=True))
+print(lc.format("%.2f", 12345.45, grouping=True), "\n")
+
+# working with decimal numbers
+order_total = Decimal("100.05")
+discount_percent = Decimal(".1")
+discount = order_total * discount_percent
+print(discount_percent, "\n")
+
+subtotal = order_total - discount
+print(subtotal, "\n")
+
+tax_percent = Decimal(".05")
+sales_tax = subtotal * tax_percent
+print(sales_tax, "\n")
+
+invoice_total = subtotal + sales_tax
+print(invoice_total, "\n")
+
+discount = Decimal("10.005")
+discount = discount.quantize(Decimal("1.00"))
+print(discount)
+print(lc.currency(discount, grouping=True), "\n")
+
+discount = Decimal("10.005")
+discount = discount.quantize(Decimal("1.00"), ROUND_HALF_UP)
+print(discount)
+print(lc.currency(discount, grouping=True), "\n")
+
+
+
+
+
+
+
+
+
+
+
+
