@@ -27,6 +27,8 @@ I've been typing up some of the samples from these books to keep my Java, Python
 	- **[Downloads](https://netbeans.org/downloads/)**
 	- **[Documentation](https://netbeans.org/kb/index.html)** 
 
+---
+
 #### HTML/HTML5
 
 - **[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)**
@@ -48,6 +50,8 @@ I've been typing up some of the samples from these books to keep my Java, Python
 #### Bootcamp
 
 - **[Bootstrap 4 (Currently v4.0.0-beta.2)](http://getbootstrap.com/)**
+
+---
 
 #### Node.js
 
@@ -78,6 +82,8 @@ I've been typing up some of the samples from these books to keep my Java, Python
 - **[Aptana RadRails](http://www.aptana.com/products/radrails.html)**
 - **[Jetbrains RubyMine](https://www.jetbrains.com/ruby/)**
 
+---
+
 #### Text Editors
 
 - **[Aptana Studio 3](http://www.aptana.com/)**
@@ -86,7 +92,7 @@ I've been typing up some of the samples from these books to keep my Java, Python
 - **[Sublime Text](https://www.sublimetext.com/)**
 - **[Visual Studio Code](https://code.visualstudio.com/)**
 
-#### Cloud
+#### Cloud Providers/Platforms
 
 - **[Amazon Web Services](https://aws.amazon.com/)**
 - **[Cloud9](https://c9.io/)** - online IDE for Ruby on Rails Development
