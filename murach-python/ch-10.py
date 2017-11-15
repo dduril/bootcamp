@@ -67,4 +67,39 @@ print(prod_num)
 prod_num = prod_num.replace("-", " ")
 print(prod_num, "\n")
 
+# splitting a string on whitespace
+quotation = "To be or not to be? that is the question."
+print(quotation)
+words = quotation.split()
+print(words[0])
+print(words[3])
+print(words[7])
+print(words[-1])
+print(words[9], "\n")
+
+# splitting a date on a delimiter
+date = "11/15/2017"
+date = date.split("/")
+month = int(date[0])
+day = int(date[1])
+year = int(date[2])
+print(str(month))
+print(str(day))
+print(str(year), "\n")
+
+# splitting a address on a delimiter
+address = "John Smith|1500 Coffee Lane|Portland|OR|97035"
+address = address.split("|")
+print(address[0])
+print(address[1])
+print(address[2] + ", " + address[3] + " " + address[4])
+
+# joining strings
+first_name = ""
+last_name = ""
+full_name = first_name + ", " + last_name
+
+# joining items in a list
+
+# joining characters
 
