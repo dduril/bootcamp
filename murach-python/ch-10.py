@@ -92,14 +92,20 @@ address = "John Smith|1500 Coffee Lane|Portland|OR|97035"
 address = address.split("|")
 print(address[0])
 print(address[1])
-print(address[2] + ", " + address[3] + " " + address[4])
+print(address[2] + ", " + address[3] + " " + address[4] + "\n")
 
 # joining strings
 first_name = ""
 last_name = ""
-full_name = first_name + ", " + last_name
+full_name = first_name + ", " + last_name + "\n"
 
 # joining items in a list
+scifi_movies = ["Alien", "Avatar", "Bladerunner", "Chappie", "Robocop"]
+scifi_movies = " | ".join(scifi_movies)
+print(scifi_movies, "\n")
 
 # joining characters
+letters = "DEVOPS"
+letters = " ".join(letters)
+print(letters, "\n")
 
