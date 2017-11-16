@@ -96,5 +96,3 @@ print(title)
 print(str(runtime))
 print(rating)
 print(released)
-
-
