@@ -6,9 +6,9 @@ Some of the contents/folders within this repo are based on the 'Essentials' line
 
 The focus is on developing quick guides for getting started, how to use code editors, language syntax, data types, objects, control structures (selection and iteration), exception handling, debugging, and best practices.
 
-More recently, a few new folders were added for studies from: Murach's Java Programming, Murach's MySQL, and Murach's Python Programming. I'm a fan of the Murach approach - oversize book with large print and on every page a new lesson - the left side has the text, the right side has the code. Each chapter provides an easy to follow step-by-step tutorial for a particular topic.
+More recently, a few new folders were added for studies from: Murach's Java Programming, Murach's MySQL, and Murach's Python Programming. I like the Murach approach - an oversized book with large print and on every page a new lesson - the left side has the content and the right side has the code and example. Each chapter provides easy to follow step-by-step tutorials focusing on a particular topic.
 
-I've been typing up some of the samples from these books to keep my Java, Python, and MySQL coding skills up to date. In some cases I just type up and run the examples. In other cases, I'll make modifications or extensions to the examples to apply what I'm learning. To round things out, script headers, comments and documentation are added.
+I've been typing up some of the examples from these books to keep my Java, Python, and MySQL coding skills up to date. In some cases I'll simply code and run the examples. In other cases, I'll make modifications or extensions to the examples to better apply what I'm learning. To round things out - I'll add script headers, comments and additionl documentation as added.
 
 ### Contents
 
