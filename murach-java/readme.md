@@ -2,7 +2,7 @@
 
 Based on **[Murach's Java Programming, 5th Edition](https://www.murach.com/shop/murach-s-java-programming-5th-edition-detail)**, using JDK 8 and NetBeans IDE 8.2.
 
-As stated in the main readme for this repo, the purpose of these examples is to practice coding skills in the Java language and learn the use of its editors and tools.
+The purpose of this repo is to practice coding Java and the use of popular Java editors and tools.
 
 ### Getting Started
 

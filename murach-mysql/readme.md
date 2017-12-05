@@ -2,7 +2,7 @@
 
 Based on **[Murach's MySQL, 2nd Edition](https://www.murach.com/shop/murach-s-mysql-2nd-edition-detail)**, using MySQL 5.7 and MySQL Workbench 6.3.
 
-As stated in the main readme for this repo, the purpose of these examples is to practice coding skills of the MySQL SQL syntax and learn the use of its editors and tools.
+The purpose of this repo is to practice coding SQL using MySQL DBMS and some of the popular MySQL tools.
 
 ### Getting Started
 
