@@ -7,7 +7,7 @@ A simple starter project using a form, some CSS and a JavaScript file for valida
 - Added <header> and <footer> tags
 - Modified the CSS declarations
 
-![Example](/ch-1-screenshot.png "Join Our List")
+![Example](/murach-javascript-jquery/ch-1/ch-1-screenshot.png "Join Our List")
 
 
 

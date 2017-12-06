@@ -5,7 +5,7 @@
 - Added <header> and <footer> tags
 - Modified the CSS declarations
 
-![Example](/ch-1-screenshot.png "HTML5 Template")
+![Example](/murach-html5-css3/ch-1/ch-1-screenshot.png "HTML5 Template")
 
 
 
