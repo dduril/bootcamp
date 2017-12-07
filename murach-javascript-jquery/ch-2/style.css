@@ -1,0 +1,39 @@
+/* styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 670px;
+    padding: 0 2em 1em;
+}
+
+main {
+    display: block;
+    padding: 1em;
+    border: 2px solid darkgray;
+    margin-bottom: 1em;
+}
+
+h1 {
+    color: #00008b;
+}
+
+label {
+    float: left;
+    width: 12em;
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+
+span {
+    color: red;
+}
+
+footer {
+    text-align: left;
+    font-size: .8em;
+}

@@ -1,14 +1,10 @@
 # JavaScript and jQuery 
 
-#### 
+#### MPG Calculate Application
 
-description
+![Example](/murach-javascript-jquery/ch-2/ch-2-screenshot-1.png "MPG Calculate Form")
 
-- feature 1
-- feature 2
-- feature 3
-
-![Example](/murach-javascript-jquery/ch-/ch--screenshot.png "")
+![Example](/murach-javascript-jquery/ch-2/ch-2-screenshot-2.png "MPG Calculate Results")
 
 
 
