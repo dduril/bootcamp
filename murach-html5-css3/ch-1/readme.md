@@ -1,6 +1,6 @@
 # HTML5 and CSS3
 
-#### Chapter 1 - HTML5 Template
+#### HTML5 Template
 
 This is a simple HTML5 template presented almost as a 'Hello World' example. 
 
