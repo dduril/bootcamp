@@ -6,6 +6,11 @@ body {
     padding: 1em;
 }
 
+main {
+    display: block;
+    margin-bottom: 1em;    
+}
+
 h1 {
     color: #363636;
     font-size: 180%;
@@ -14,4 +19,10 @@ h1 {
 h2 {
     font-style: italic;
     border-bottom: 2px solid #ef9c00;
+}
+
+footer {
+    text-align: left;
+    font-size: .8em;
+    padding-top: 2em;
 }
