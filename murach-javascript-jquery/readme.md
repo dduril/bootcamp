@@ -1,4 +1,5 @@
-# JavaScript and jQuery<a name="top"></a>
+<a name="top"></a>
+# JavaScript and jQuery
 
 Based on **[Murach's JavaScript and jQuery, 3rd Edition](https://www.murach.com/shop-books/web-design-books/murach-s-javascript-and-jquery-3rd-edition-detail)**.
 
