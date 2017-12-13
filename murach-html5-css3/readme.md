@@ -1,4 +1,4 @@
-# HTML5 and CSS3
+# HTML5 and CSS3<a name="top"></a>
 
 Based on **[Murach's HTML5 and CSS3, 3rd Edition](https://www.murach.com/shop/murachs-html5-and-css3-3rd-edition-detail)**.
 
@@ -17,6 +17,10 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 
 #### Building Blocks and Language Syntax
 
+- **[Template](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#template)**
+
+---
+#### Template<a name="template"></a>
 **HTML5 template**
 
 	<!DOCTYPE html>
@@ -64,12 +68,4 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 	    font-size: .8em;
 	}
 
-**Elements with opening and closing tags**
-
-	<h1>HTML5 is Cool!</h1>
-	<p>Work through our tutorial to learn more.</p>
-
-**Empty elements**
-
-	<br>
-	<img src="img/logo.png" alt="Company Logo">
+[[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)

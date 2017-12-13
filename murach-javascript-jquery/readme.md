@@ -1,6 +1,5 @@
-# JavaScript and jQuery
+# JavaScript and jQuery<a name="top"></a>
 
-<a name="top"></a>
 Based on **[Murach's JavaScript and jQuery, 3rd Edition](https://www.murach.com/shop-books/web-design-books/murach-s-javascript-and-jquery-3rd-edition-detail)**.
 
 The purpose of this repo is to practice coding responsive web pages using JavaScript and jQuery.
@@ -16,15 +15,12 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 
 - **[Brackets](http://brackets.io/)**
 
-#### Topics
+#### Building Blocks and Language Syntax
 
 - **[Templates](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#templates)**
 
 ---
-
-#### Building Blocks and Language Syntax
-
-<a name="templates"></a>
+#### Templates<a name="templates"></a>
 **HTML5 template using semantic tags**
 
 	<!DOCTYPE html>
@@ -63,4 +59,4 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 	</body>
 	</html>
 
-**[Top](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)**
+[[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
