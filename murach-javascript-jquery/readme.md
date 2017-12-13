@@ -6,9 +6,16 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 
 ### Getting Started
 
+- **[Google Developers](https://developers.google.com/)**
+- **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
+- **[MDN - Mozilla Developer Network](https://developer.mozilla.org/en-US/)**
+- **[Modern JavaScript Tutorial](http://javascript.info/)**
+
 #### Editors
 
 - **[Brackets](http://brackets.io/)**
+
+#### Building Blocks and Language Syntax
 
  
  

@@ -6,11 +6,70 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 
 ### Getting Started
 
+- **[HTML5 Test](https://html5test.com/)**
+- **[W3C](https://www.w3.org/)**
+- **[W3C HTML Validator](https://validator.w3.org/)**
+- **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**
+
 #### Editors
 
 - **[Brackets](http://brackets.io/)**
- 
- 
 
+#### Building Blocks and Language Syntax
 
+**HTML5 template**
 
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML5 Template</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header><h1>HTML5 Template</h1></header>
+		<main>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</main>
+		<footer>&copy; 2017</footer>
+	</body>
+	</html>
+
+**Basic CSS example**
+
+	body {
+	    font-family: Arial, Helvetica, sans-serif;
+	    font-size: 100%;
+	    width: 680px;
+	    margin: 0 auto;
+	    padding: 1em;
+	}
+	main {
+	    display: block; 
+		padding: 1em;
+	    margin-bottom: 1em;    
+	}
+	h1 {
+	    margin: 0;
+	    padding: .25em;
+	    font-size: 200%;
+	}
+	p {
+	    margin: 0;
+	    padding-bottom: .5em;
+	}
+	footer {
+	    text-align: left;
+	    font-size: .8em;
+	}
+
+**Elements with opening and closing tags**
+
+	<h1>HTML5 is Cool!</h1>
+	<p>Work through our tutorial to learn more.</p>
+
+**Empty elements**
+
+	<br>
+	<img src="img/logo.png" alt="Company Logo">
