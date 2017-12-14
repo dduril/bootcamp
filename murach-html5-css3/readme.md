@@ -19,6 +19,7 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 #### Building Blocks and Language Syntax
 
 - **[Template](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#template)**
+- **[Including Metadata](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#metadata)**
 
 ---
 #### Template<a name="template"></a>
@@ -70,3 +71,5 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 	}
 
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)
+
+#### Including Metadata<a name="metadata"></a>
