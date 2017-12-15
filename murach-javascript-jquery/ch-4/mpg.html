@@ -5,6 +5,39 @@
     <title>Miles Per Gallon Application</title>
     <link rel="stylesheet" href="style.css">
     <script>
+        "use strict";
+        var $ = function(id) {
+            return document.getElementById(id);
+        };
+        var calculateMPG = function(miles, gallons) {
+            var mpg = (miles / gallons);
+            mpg = mpg.toFixed(2);
+            return mpg;
+        };
+        var processEntries = function() {
+            var miles = parseFloat($("miles").value);
+            var gallons = parseFloat($("gallons").value);
+            if (isNaN(miles) || isNaN(gallons)) {
+                alert("Both entries must be numeric.");
+                resetForm();
+            } else if (miles <= 0 || gallons <= 0) {
+                alert("Both entries must be greater than zero.");
+                resetForm();
+            } else {
+                $("mpg").value = calculateMPG(miles, gallons);
+            }    
+        };
+        var resetForm = function() {
+            $("miles").value = "";
+            $("gallons").value = "";
+            $("mpg").value = "";
+            $("miles").focus();   
+        };
+        window.onload = function() {
+            $("calculate").onclick = processEntries;
+            $("reset").onclick = resetForm;
+            $("miles").focus();
+        }
     </script>
 </head>
 <body>
@@ -17,7 +50,8 @@
         <label for="mpg">Miles Per Gallon</label>
         <input type="text" id="mpg" disabled><br>
         <label>&nbsp;</label>
-        <input type="button" id="calculate" value="Calculate MPG"><br>
+        <input type="button" id="calculate" value="Calculate MPG">
+        <input type="button" id="reset" value="Clear"><br>
     </main>
 </body>
 </html>
