@@ -244,4 +244,10 @@ Working with arrays
 	}
 	alert("Our Genres include:\n\n" + genres_string);
 
+JavaScript Objects
+
+	var entry = document.getElementById("entry");
+
+	document.write("Today's date: " + today.toDateString() + "<br>");
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
