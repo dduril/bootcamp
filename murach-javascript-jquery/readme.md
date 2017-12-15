@@ -95,6 +95,13 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 		var mpg = miles/gallons;
 		alert("Miles per gallon: " + mpg); 
 	</script>
+
+**JavaScript in the body section**
+	<script>
+		var today = new Date();
+		document.write("Current date: " );
+		document.write(today.toDdateString());
+	</script>
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
 
 
