@@ -228,4 +228,20 @@ for loops
 	}
 	alert(sum);
 
+Working with arrays
+
+    var genres = [];
+	genres[0] = "Comedy";
+	genres[1] = "Drama";
+	genres[2] = "Horror";
+	genres[3] = "Musical";
+	genres[4] = "Science Fiction";
+	var count = genres.length;		// 5
+
+	genres_string = "";
+	for (var i = 0; i < genres.length; i++) {
+		genres_string += "- " + genres[i] + "\n";
+	}
+	alert("Our Genres include:\n\n" + genres_string);
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
