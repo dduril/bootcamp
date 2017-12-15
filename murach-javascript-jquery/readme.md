@@ -146,4 +146,86 @@ Concatenate strings
 	var last_name = "Smith";
 	var full_name = first_name + " " + last_name; 
 
+	var months = 12;
+	var message = "Months: ";
+	message = message + months;
+
+Using parseInt() and parseFloat()
+
+	var years = document.getElementById("years").value;
+	years = parseInt(years);
+
+	var price = document.getElementById("price").value;
+	price = parseFloat(price);
+
+	var entry = document.getElementById("entry").value;	// entry = "hello"
+	entry = parseInt(entry);							
+	alert(entry);										// displays NaN
+
+Using write() and writeln()
+
+    <script>
+		var today = new Date();
+		document.write("Today's date: " + today.toDateString());
+		document.write("<br>");
+
+		document.writeln("Today's date: ");
+		document.writeln(today.toDateString());
+        document.write("<br>");
+        
+		document.writeln("<pre>Welcome to our site!");
+		document.writeln("Today is Friday.</pre>");
+	</script>
+
+**Control statements**
+
+if - else if - else
+
+	if ( score >= 75 ) {
+		alert("Pass.");
+	} else {
+		alert("Please review the material and try again.");
+	}
+
+	if ( score >= 90 ) {
+		alert("You scored an A.");
+	} else if ( score >= 80) {
+		alert("You scored a B.");
+	} else if ( score >= 70) {
+		alert("You scored a C.");
+	} else {
+		alert("Please review the material and try again.");
+	}
+
+while loop
+
+	var sum = 0;
+	var loops = 10;
+	var counter = 1;
+	while (counter <= loops) {
+		sum += counter;
+		counter++;
+	}
+	alert(sum);
+
+do-while loop
+
+	var sum = 0;
+	var loops = 10;
+	var counter = 1;
+	do {
+		sum += counter;
+		counter++;
+	} while (counter <= loops);
+	alert(sum);
+
+for loops
+
+	var sum = 0;
+	var loops = 10;
+	for (var counter = 1; counter <= loops; counter++) {
+		sum += counter;
+	}
+	alert(sum);
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
