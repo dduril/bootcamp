@@ -20,6 +20,7 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 
 - **[Templates](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#templates)**
 - **[HTML5 Semantic Elements](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#html5-semantic-elements)**
+- **[Adding JavaScript](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#add-javascript)**
 
 ---
 
@@ -73,7 +74,27 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 - **`nav`**
 - **`figure`**
 - **`footer`**
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
 
+
+#### Adding JavaScript<a name="add-javascript"></a>
+
+**Adding JavaScript to head section**
+
+	<script src="calculate_mpg.js"></script>
+
+**Embedding JavaScript in head section**
+
+	<script>
+		alert("Calculate MPG");
+		var miles = prompt("Enter miles driven");
+		miles = parseFloat(miles);
+		var gallons = prompt("Enter gallons of gas used");
+		gallons = parseFloat(gallons);
+		var mpg = miles/gallons;
+		alert("Miles per gallon: " + mpg); 
+	</script>
+[[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
 
 
