@@ -114,6 +114,36 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 
 #### JavaScript Basics<a name="javascript-basics"></a>
 
+Comments
 
+	/* multi-line comments...
+	 * ...comments continue on next line...
+	 */
+
+	// single-line comment... 
+
+JavaScript primitive types
+	
+	Number		10, -5, 25.8
+	String		"JavaScript", 'jQuery'
+	Boolean		true/false 
+
+Declare and assign a value to a variable
+
+	var num1;
+	num1 = 10;
+
+	var a, b;
+	var x = 5, y = 10;
+
+	var name = "John Smith";
+
+	var isValid = true;
+
+Concatenate strings
+
+	var first_name = "John";
+	var last_name = "Smith";
+	var full_name = first_name + " " + last_name; 
 
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
