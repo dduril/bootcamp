@@ -10,7 +10,26 @@ header {
     margin-bottom: 0;
 }
 
+nav {
+    font-size: .95em;    
+}
+
+li {
+    list-style-type: square;
+    padding: .25em;
+}
+
 h1 {
     font-size: 200%;
     margin-bottom: 0;
+}
+
+h2 {
+    font-size: 150%;
+    margin-bottom: 0;
+}
+
+footer {
+    font-size: .8em;
+    padding-top: 2em;
 }
