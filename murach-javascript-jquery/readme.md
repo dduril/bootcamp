@@ -285,6 +285,44 @@ String object
 	var nameLower = fullName.toLowerCase();
 	var nameLength = fullName.length;
 
+Function expressions
 
+	// example 1
+	var $ = function(id) {
+		return document.getElementById(id);
+	};
+
+	var firstName = $("first_name").value;
+
+	// example 2
+	var calcPerimeter = function(l, w) {
+		var perimeter = 2(l + w);
+		return perimeter;
+	};
+
+	var sideLength = 10;
+	var sideWidth = 5;
+	var perimeter = calcPerimeter(sideLength, sideWidth);
+	document.write("Perimeter: " + perimeter + "<br>");
+
+Function declarations
+
+	// example 1
+	function $(id) {
+		return document.getElementById(id);
+	}
+
+	var firstName = $("first_name").value;	
+
+	// example 2
+	function calcPerimeter(l, w) {
+		var perimeter = 2(l + w);
+		return perimeter;
+	};
+
+	var sideLength = 10;
+	var sideWidth = 5;
+	var perimeter = calcPerimeter(sideLength, sideWidth);
+	document.write("Perimeter: " + perimeter + "<br>");
 
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
