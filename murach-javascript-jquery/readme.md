@@ -62,6 +62,7 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 		<div class="footer">&copy; 2017</div>
 	</body>
 	</html>
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
 
 
@@ -97,11 +98,13 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 	</script>
 
 **JavaScript in the body section**
+
 	<script>
 		var today = new Date();
 		document.write("Current date: " );
 		document.write(today.toDdateString());
 	</script>
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
 
 

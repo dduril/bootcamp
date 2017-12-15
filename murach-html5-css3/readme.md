@@ -71,6 +71,7 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 	    text-align: left;
 	    font-size: .8em;
 	}
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)
 
 
@@ -82,6 +83,7 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 		<meta name="keywords" content="HTML5, CSS3, responsive web design, semantic, cutting edge">
     	<title>HTML5 Template</title>
 	</head>
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)
 
 
