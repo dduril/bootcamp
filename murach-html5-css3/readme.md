@@ -95,15 +95,18 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 
 **Embedded Styles**
 
-	<style>
-		body {
-		    font-family: Arial, Helvetica, sans-serif;
-		    font-size: 100%;
-		    margin: 0 auto;
-		}
-		h1 { font-size: 200%;
-		}
-	</style>
+	<head>
+	...
+		<style>
+			body {
+			    font-family: Arial, Helvetica, sans-serif;
+			    font-size: 100%;
+			    margin: 0 auto;
+			}
+			h1 { font-size: 200%;
+			}
+		</style>
+	</head>
 
 **Inline Styles**
 

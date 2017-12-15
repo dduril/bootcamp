@@ -21,6 +21,7 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 - **[Templates](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#templates)**
 - **[HTML5 Semantic Elements](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#html5-semantic-elements)**
 - **[Adding JavaScript](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#add-javascript)**
+- **[JavaScript Basics](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#javascript-basics)**
 
 ---
 
@@ -81,11 +82,11 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 
 #### Adding JavaScript<a name="add-javascript"></a>
 
-**Adding JavaScript to head section**
+**Linking external JavaScript to the head section**
 
 	<script src="calculate_mpg.js"></script>
 
-**Embedding JavaScript in head section**
+**Embedding JavaScript to the head section**
 
 	<script>
 		alert("Calculate MPG");
@@ -97,14 +98,22 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 		alert("Miles per gallon: " + mpg); 
 	</script>
 
-**JavaScript in the body section**
+**Adding JavaScript to the body section**
 
-	<script>
-		var today = new Date();
-		document.write("Current date: " );
-		document.write(today.toDdateString());
-	</script>
+	<head>
+	...
+		<script>
+			var today = new Date();
+			document.write("Current date: " );
+			document.write(today.toDdateString());
+		</script>
+	</head>
 
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
 
 
+#### JavaScript Basics<a name="javascript-basics"></a>
+
+
+
+[[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
