@@ -250,4 +250,41 @@ JavaScript Objects
 
 	document.write("Today's date: " + today.toDateString() + "<br>");
 
+Using Textbox and Number objects
+
+	// assuming these HTML tags:
+	// <input type="text" id="first_name">
+	// <input type="text" id="price">
+
+	var firstName = document.getElementById("first_name");
+	firstName = firstName.value;
+
+	var price = document.getElementById("price");
+	price = price.value;
+	price = parseFloat("price").toFixed(2);
+
+	// same example using chaining
+	var price = parseFloat(document.getElementById("price").value).toFixed(2);
+
+	// a few more examples
+	document.getElementById("first_name").value = "";
+	document.getElementById("first_name").focus();
+
+Date object
+
+	var myDate = new Date();
+	document.write(myDate.toDateString() + "<br>");
+	document.write(myDate.getFullYear() + "<br>");
+	document.write(myDate.getDate() + "<br>");
+	document.write(myDate.getMonth() + "<br>");
+
+String object
+
+	var fullName = "John Smith";
+	var nameUpper = fullName.toUpperCase();
+	var nameLower = fullName.toLowerCase();
+	var nameLength = fullName.length;
+
+
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
