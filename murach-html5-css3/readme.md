@@ -20,8 +20,10 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 
 - **[Template](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#template)**
 - **[Including Metadata](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#metadata)**
+- **[Adding Styles](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#css)**
 
 ---
+
 #### Template<a name="template"></a>
 **HTML5 template**
 
@@ -69,7 +71,40 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 	    text-align: left;
 	    font-size: .8em;
 	}
-
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)
 
+
 #### Including Metadata<a name="metadata"></a>
+
+	<head>
+    	<meta charset="UTF-8">
+		<meta name="description" content="HTML5 template for modern web pages">
+		<meta name="keywords" content="HTML5, CSS3, responsive web design, semantic, cutting edge">
+    	<title>HTML5 Template</title>
+	</head>
+[[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)
+
+
+#### Adding Styles<a name="css"></a>
+
+**External Style Sheet**
+
+	<link rel="stylesheet" href="assets/styles/custom.css">
+
+**Embedded Styles**
+
+	<style>
+		body {
+		    font-family: Arial, Helvetica, sans-serif;
+		    font-size: 100%;
+		    margin: 0 auto;
+		}
+		h1 { font-size: 200%;
+		}
+	</style>
+
+**Inline Styles**
+
+	<h2 style="font-size: 125%; color: blue; padding-bottom: .5em;">Meeting Agenda</h2>
+
+[[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)

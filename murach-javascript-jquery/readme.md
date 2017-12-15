@@ -22,6 +22,7 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 - **[HTML5 Semantic Elements](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#html5-semantic-elements)**
 
 ---
+
 #### Templates<a name="templates"></a>
 **HTML5 template using semantic tags**
 
@@ -60,7 +61,19 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 		<div class="footer">&copy; 2017</div>
 	</body>
 	</html>
-
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
 
+
 #### HTML5 Semantic Elements<a name="html5-semantic-elements"></a>
+- **`header`**
+- **`main`**
+- **`section`**
+- **`article`**
+- **`aside`**
+- **`nav`**
+- **`figure`**
+- **`footer`**
+[[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
+
+
+
