@@ -2,23 +2,29 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-	width: 500px;
     margin: 0 auto;
-	padding: 0 2em 1em;
-    border: 3px solid blue;
+    width: 670px;
+    padding: 1em 2em 1em;
 }
+
+main {
+    display: block;
+    padding: 1em;
+    border: 3px solid #999;
+    margin-bottom: 1em;
+}
+
 h1 {
-	color: blue;
-	margin-bottom: .25em;
+    color: #00008b;
 }
+
 label {
-	float: left;
-    width: 11em;
+    float: left;
+    width: 12em;
     text-align: right;
 }
+
 input {
     margin-left: 1em;
     margin-bottom: .5em;
-	margin-right: .5em;
-    width: 11em;
 }
