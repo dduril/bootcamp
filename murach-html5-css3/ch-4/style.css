@@ -10,6 +10,14 @@ header {
     margin-bottom: 0;
 }
 
+main p:first-child {
+    font-weight: bold;    
+}
+
+main p:first-child::first-letter {
+    font-size: 150%;
+}
+
 nav {
     font-size: .95em;    
 }
@@ -28,6 +36,9 @@ h2 {
     font-size: 150%;
     margin-bottom: 0;
 }
+
+a:link { color: green; }
+a:hover, a:focus { color: blue; }
 
 footer {
     font-size: .8em;
