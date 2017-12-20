@@ -325,4 +325,40 @@ Function declarations
 	var perimeter = calcPerimeter(sideLength, sideWidth);
 	document.write("Perimeter: " + perimeter + "<br>");
 
+**Scripting the DOM with JavaScript**
+
+Get the text of an HTML element with "first_name" as its id
+
+	var firstName = document.getElementById("first_name").firstChild.nodeValue;
+
+Set the text of an HTML element with "first_name" as its id
+
+	document.getElementById("first_name").firstChild.nodeValue = "John Smith";
+
+Create an array of all `p` tags in a document
+
+	var paragraphs = document.getElementsByTagName("p");
+
+Create an array of all `li` tags within an `ul` element
+
+	var list = document.getElementById("content_list");
+	var items = list.document.getElementsByTagName("li");
+
+Test for and get an attribute
+
+	var list = document.getElementById("content_list");
+	if (list.hasAttribute("class")) {
+		var classAttribute = list.getAttribute("class");
+	}
+
+Set an attribute
+
+	var list = document.getElementById("content_list");
+	list.setAttribute("class", "highlight");
+
+Remove an attribute
+
+	var list = document.getElementById("content_list");
+	list.removeAttribute("class");
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
