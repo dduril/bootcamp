@@ -90,11 +90,11 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 
 #### Adding Styles<a name="css"></a>
 
-**External Style Sheet**
+**External style sheet**
 
 	<link rel="stylesheet" href="assets/styles/custom.css">
 
-**Embedded Styles**
+**Embedded styles**
 
 	<head>
 	...
@@ -109,7 +109,7 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 		</style>
 	</head>
 
-**Inline Styles**
+**Inline styles**
 
 	<h2 style="font-size: 125%; color: blue; padding-bottom: .5em;">Meeting Agenda</h2>
 
@@ -117,7 +117,7 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 
 #### HTML Basics<a name="html-basics"></a>
 
-**Headings and Paragraphs**
+**Headings and paragraphs**
 
 - `h1` - Content in bold at 200% of the base font size
 - `h2` - Content in bold at 150% of the base font size
@@ -127,9 +127,66 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 - `h6` - Content in bold at 67% of the base font size
 - `p` - Paragraph of text at 100% of the base font size
 
-**Ordered Lists**
+**Formatting code**
 
-**Unordered Lists**
+	<pre>
+		var today = new Date();
+	    document.write("Today's date: " + today.toDateString());
+	    document.write("<br>");
+	</pre>
 
+**Primary HTML5 elements**
+
+- **`header`**
+- **`main`**
+- **`section`**
+- **`article`**
+- **`aside`**
+- **`nav`**
+- **`footer`**
+
+Example:
+
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>Web Development</title>
+		</head>
+		<body>
+			<header>
+				<h1>Web Development</h1>
+			</header>
+			<main>
+				<h2>Courses</h2>
+				<nav>
+					<ul>
+						<li>HTML5 and CSS3</li>
+						<li>JavaScript and jQuery</li>
+						<li>Responsive Web Design</li>
+					</ul>
+				</nav>
+			</main>  
+			<footer>
+				&copy; Copyright 2017
+			</footer>
+		</body>
+	</html>
+
+**Ordered lists**
+
+	<ol>
+		<li>Create Account</li>
+		<li>Select Products</li>
+		<li>Proceed to Checkout</li>
+	</ol>
+
+**Unordered lists**
+
+	<ul>
+		<li>HTML5</li>
+		<li>jQuery</li>
+		<li>Bootstrap</li>
+	</ul>
 
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)
