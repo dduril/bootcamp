@@ -21,6 +21,7 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 - **[Template](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#template)**
 - **[Including Metadata](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#metadata)**
 - **[Adding Styles](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#css)**
+- **[HTML Basics](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#html-basics)**
 
 ---
 
@@ -111,5 +112,24 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 **Inline Styles**
 
 	<h2 style="font-size: 125%; color: blue; padding-bottom: .5em;">Meeting Agenda</h2>
+
+[[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)
+
+#### HTML Basics<a name="html-basics"></a>
+
+**Headings and Paragraphs**
+
+- `h1` - Content in bold at 200% of the base font size
+- `h2` - Content in bold at 150% of the base font size
+- `h3` - Content in bold at 117% of the base font size
+- `h4` - Content in bold at 100% of the base font size
+- `h5` - Content in bold at 83% of the base font size
+- `h6` - Content in bold at 67% of the base font size
+- `p` - Paragraph of text at 100% of the base font size
+
+**Ordered Lists**
+
+**Unordered Lists**
+
 
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)
