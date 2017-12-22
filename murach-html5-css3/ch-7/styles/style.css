@@ -1,0 +1,60 @@
+/* styles */
+body {
+    font-size: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+header {
+    padding-bottom: .75em;
+    border-bottom: 2px solid black;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 150%;
+    margin-bottom: 0;
+}
+
+li {
+    font-size: .9em;
+    padding: .25em;
+    
+}
+
+ul > li {
+   list-style-type: square;
+}
+
+ol.decimal-leading-zero {
+    list-style-type: decimal-leading-zero;
+}
+
+dl {
+    padding-left: 1em;
+}
+
+dt {
+    font-weight: bold;
+    padding: .35em;
+}
+
+dd {
+    font-size: .9em;
+    padding: .35em;
+}
+
+a:link { color: darkgreen; }
+a:hover, a:focus { color: darkblue; }
+
+footer {
+    font-size: .8em;
+    padding-top: 1em;
+    margin-top: 2em;
+    border-top: 1px solid darkgray;
+}
