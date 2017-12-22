@@ -113,6 +113,49 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 
 	<h2 style="font-size: 125%; color: blue; padding-bottom: .5em;">Meeting Agenda</h2>
 
+**CSS Selectors**
+
+All elements
+
+	* { margin: 0; padding: 0; } 
+
+Selecting elements by type
+
+	body {
+    	font-size: 100%;
+    	margin-left: 2em;
+    	margin-right: 2em;
+	}
+
+	header {
+    	padding-bottom: .75em;
+    	border-bottom: 2px solid black;
+    	margin-bottom: 0;
+	}
+
+	h1, h2, h3 {
+		color: navy;
+	}
+
+Selecting element by ID (Unique Identifier)
+
+	#footer {
+		padding: 10px;
+		background: #fff;
+		border-top: 1px solid #ddd;
+		color: #999;
+		font-size: .875em;
+		}
+
+Elements by class (One or more)
+
+	.list {
+		font: 0.875em/1.8em Arial, Verdana, sans-serif;
+		line-height: 1.8em;
+		list-style-type: square;
+		text-indent: 2em;
+	}
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)
 
 #### HTML Basics<a name="html-basics"></a>
