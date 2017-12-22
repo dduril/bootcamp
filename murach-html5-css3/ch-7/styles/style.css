@@ -49,8 +49,13 @@ dd {
     padding: .35em;
 }
 
-a:link { color: darkgreen; }
-a:hover, a:focus { color: darkblue; }
+a:link { 
+    color: green; 
+}
+a:hover, a:focus { 
+    color: blue; 
+    text-decoration: none
+}
 
 footer {
     font-size: .8em;
