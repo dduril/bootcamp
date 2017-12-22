@@ -361,4 +361,69 @@ Remove an attribute
 	var list = document.getElementById("content_list");
 	list.removeAttribute("class");
 
+Retrieving values from a text box, text area and select list
+
+	function $(id) {
+		return document.getElementById(id);
+	}
+
+	var first_name = $("first_name").value;
+	var comments = $("comments").value
+
+	if ( first_name.length == 0 ) { alert("Please enter your name."); }
+	if ( comments.length == 0 ) { alert("Please enter a comment."); }
+
+	var location = $("location").value;
+	if ( location == "CA" ) { /* CA processing */ }
+	else if ( location == "OR" ) { /* OR processing */ }
+	else if ( location == "WA" ) { /* WA processing */ }
+
+	// reset values
+	$("first_name").value = "";
+	$("comments").value = "";
+	$("location").value = "";
+
+Retrieving values from radio buttons and check boxes
+
+	function $(id) {
+		return document.getElementById(id);
+	}
+
+	var contactType;
+	if ( $("text").checked )  { contactType = $("text").value; }
+	if ( $("email").checked ) { contactType = $("email").value; }
+
+	if ( contactType == "text" ) { /* text processing */}
+	else if ( contactType == "email" ) { /* email processing */ }
+	else { alert("Please select a contact type."); }
+
+	var accept = $("accept").checked;
+	if ( accept ) {
+		/* accept processing */
+	} else { alert("Please accept the agreement to proceed."); }
+
+	// reset values
+	$("text").checked = false;
+	$("email").checked = false;
+	$("accept").checked = true;
+
+Using onload event handler to assign event handlers to events
+
+	"use strict";
+	var $ = function(id) { return document.getElementById(id); };
+	
+	var processForm = function() {
+		/* form processing logic */
+	};
+
+	var resetForm = function() {
+		/* form reset logic
+	};
+	
+	window.onload = function() {
+		$("register").onclick = processForm;
+		$("reset_form").onclick = resetForm;    
+		$("first_name").focus();
+	};
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
