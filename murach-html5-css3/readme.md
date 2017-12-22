@@ -216,7 +216,7 @@ Example:
 		</body>
 	</html>
 
-**Ordered lists**
+**Ordered list**
 
 	<ol>
 		<li>Create Account</li>
@@ -224,12 +224,21 @@ Example:
 		<li>Proceed to Checkout</li>
 	</ol>
 
-**Unordered lists**
+**Unordered list**
 
 	<ul>
 		<li>HTML5</li>
 		<li>jQuery</li>
 		<li>Bootstrap</li>
 	</ul>
+
+**Description List**
+
+	<dl>
+		<dt>Front End Development</dt>    
+		<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+		<dt>Full Stack Development</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sit placeat numquam!</dd>
+	</dl>
 
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-html5-css3#top)
