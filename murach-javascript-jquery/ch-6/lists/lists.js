@@ -23,8 +23,8 @@ var toggle = function() {
 
 window.onload = function() {
     // get the h2 tags
-    var faqs = $("faqs");
-    var h2Elements = faqs.getElementsByTagName("h2");
+    var lists = $("lists");
+    var h2Elements = lists.getElementsByTagName("h2");
     
     // attach event handler for each h2 tag	    
     for (var i = 0; i < h2Elements.length; i++ ) {
