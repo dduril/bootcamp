@@ -426,4 +426,26 @@ Using onload event handler to assign event handlers to events
 		$("first_name").focus();
 	};
 
+Retrieving the HTML content of an element
+
+	var navHTML = document.getElementById("nav_list").innerHTML;
+
+Removing the HTML content of an element
+
+	document.getElementById("nav_list").innerHTML = "";
+
 [[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
