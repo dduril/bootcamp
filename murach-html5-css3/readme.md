@@ -7,14 +7,16 @@ The purpose of this repo is to practice coding responsive web pages using HTML5 
 
 ### Getting Started
 
+- **[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn)**
 - **[HTML5 Test](https://html5test.com/)**
-- **[W3C](https://www.w3.org/)**
 - **[W3C HTML Validator](https://validator.w3.org/)**
 - **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**
 
 #### Editors
 
+- **[Aptana Studio 3](http://www.aptana.com/)**
 - **[Brackets](http://brackets.io/)**
+- **[VS Code](https://code.visualstudio.com/)**
 
 #### Building Blocks and Language Syntax
 
