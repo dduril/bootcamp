@@ -1,0 +1,41 @@
+/* styles */
+body {
+    font-size: 100%;
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+header {
+    width: 96.875%;
+    padding: 15px 1.5625%;
+    border-bottom: 2px solid black;
+}
+header h1 {
+    font-size: 1.75em;
+}
+main {
+    width: 59.375%;
+    padding: 15px 1.5625%;
+    float: left;
+}
+main h2 {
+    font-size: 1.5em;
+}
+aside {
+    width: 34.375%;
+    padding: 15px 1.5625%;
+    float: right;
+}
+aside h3 {
+    font-size: 1.125em;
+}
+footer {
+    clear: both;
+    width: 96.875%;
+    padding: 15px 1.5625%;
+    border-top: 2px solid black;
+}
+footer p {
+    font-size: .75em;
+}
