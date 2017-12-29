@@ -25,6 +25,7 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 - **[HTML5 Semantic Elements](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#html5-semantic-elements)**
 - **[Adding JavaScript](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#add-javascript)**
 - **[JavaScript Basics](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#javascript-basics)**
+- **[jQuery](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#jquery)**
 
 ---
 
@@ -441,10 +442,72 @@ Removing the HTML content of an element
 
 
 
+#### jQuery<a name="jquery"></a>
+**Basic Example**
 
+HTML
 
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>FAQs</title>
+	    <link rel="stylesheet" href="main.css">
+	    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	    <script src="lists.js"></script>   	
+	</head>
+	
+	<body>
+	    <main id="lists">
+	    <h1>Movie Lists</h1>
+			<h2><a href="#">List 1</a></h2>
+			<div><ul>...</ul></div>
 
+			<h2><a href="#">List 2</a></h2>
+			<div><ul>...</ul></div>
 
+			<h2><a href="#">List 3</a></h2>
+			<div><ul>...</ul></div>
+	    </main>
+	</body>
+	</html>
+
+CSS
+
+	h2 {
+	    font-size: 120%;
+	    padding: .25em 0 .25em 25px;
+	    cursor: pointer;
+	    background: url(images/plus.png) no-repeat left center;
+	}
+	h2.minus {
+	    background: url(images/minus.png) no-repeat left center;
+	}
+	div {
+	    display: none;
+	}
+	div.open {
+	    display: block;
+	}
+
+jQuery
+
+	"use strict";
+	$(document).ready(function() {
+	    $("#lists h2").click(function(evt) {
+	        $(this).toggleClass("minus");
+	        if ($(this).attr("class") !== "minus") {
+	            $(this).next().hide();
+	        }
+	        else {
+	            $(this).next().show();
+	        }
+	        evt.preventDefault();
+	    }); // end click
+	    $("#lists").find("a:first").focus();
+	}); // end ready
+
+[[Top]](https://github.com/dduril/bootcamp/tree/master/murach-javascript-jquery#top)
 
 
 
