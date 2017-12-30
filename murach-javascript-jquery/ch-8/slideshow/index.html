@@ -1,10 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+  <title>Image Swap</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="slideshow.js"></script>
 </head>
+
 <body>
-    
+    <main>
+        <h1>Winery Pictures</h1>
+        <p>Click on an image to enlarge.</p>
+        <ul id="image_list">
+            <li><a href="images/barrels.jpg" title="Barrels">
+                <img src="thumbnails/barrels.jpg" alt=""></a></li>
+            <li><a href="images/flowers.jpg" title="Flowers">
+                <img src="thumbnails/flowers.jpg" alt=""></a></li>
+            <li><a href="images/fountain.jpg" title="Fountain">
+                <img src="thumbnails/fountain.jpg" alt=""></a></li>
+            <li><a href="images/tractor.jpg" title="Tractor">
+                <img src="thumbnails/tractor.jpg" alt=""></a></li>
+        </ul>
+        <h2 id="caption">Barrels</h2>
+        <p><img id="main_image" src="images/barrels.jpg" alt=""></p>
+    </main>
 </body>
 </html>
