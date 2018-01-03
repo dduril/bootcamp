@@ -17,6 +17,7 @@ p {
 figure {
     float: left;
     margin-right: 1.5em;
+    margin-top: 15px;
 }
 figcaption {
     display: block;
@@ -35,11 +36,13 @@ li {
     margin-top: .3em;
     margin-left: .5em;
 }
+/*
 img {
     float: left;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+*/
 #last {
     clear: left;
 }
