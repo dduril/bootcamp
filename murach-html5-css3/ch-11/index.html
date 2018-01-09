@@ -8,31 +8,48 @@
 </head>
 <body>
     <h2>Registration</h2>
-    <form>
-       
+    <form>  
         <fieldset>
             <legend>Account Information</legend>
         
-        <label for="first_name">First name:</label>
-        <input type="text" name="first_name" id="first_name"><br>
+            <label for="first_name">First name:</label>
+            <input type="text" name="first_name" id="first_name"><br>
+
+            <label for="last_name">Last name:</label>
+            <input type="text" name="last_name" id="last_name"><br>
+
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address"><br>
+
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city"><br>
+
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state"><br>
+
+            <label for="zip">Zip:</label>
+            <input type="text" name="zip" id="zip"><br>
+        </fieldset>
         
-        <label for="last_name">Last name:</label>
-        <input type="text" name="last_name" id="last_name"><br>
-        
-        <label for="address">Address:</label>
-        <input type="text" name="address" id="address"><br>
-        
-        <label for="city">City:</label>
-        <input type="text" name="city" id="city"><br>
-        
-        <label for="state">State:</label>
-        <input type="text" name="state" id="state"><br>
-        
-        <label for="zip">Zip:</label>
-        <input type="text" name="zip" id="zip"><br>
-        
-        <input type="submit" name="submit" id="submit" value="Submit">
-        <input type="reset" name="reset" id="reset" value="Reset">
+        <fieldset>
+            <legend>Social Media</legend>
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"><br>
+            
+            <label for="mobile">Mobile:</label>
+            <input type="tel" name="mobile" id="mobile"><br>
+            
+            <label for="github">Github:</label>
+            <input type="url" name="github" id="github"><br>
+            
+            <label for="website">Website:</label>
+            <input type="url" name="website" id="website"><br>
+            
+            <div class="form_control">
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset" value="Reset">
+            </div>
         </fieldset>
     </form>
 </body>
