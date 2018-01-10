@@ -10,6 +10,7 @@ The purpose of this repo is to practice coding responsive web pages using JavaSc
 - **[Google Developers](https://developers.google.com/)**
 - **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
 - **[jQuery](https://jquery.com/)**
+- **[jQuery UI](https://jqueryui.com/)**
 - **[MDN - Mozilla Developer Network](https://developer.mozilla.org/en-US/)**
 - **[Modern JavaScript Tutorial](http://javascript.info/)**
 
