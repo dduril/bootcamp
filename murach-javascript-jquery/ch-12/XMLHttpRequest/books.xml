@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+    <book>
+        <title>Originals</title>
+        <category>Business</category>
+        <published>2016</published>
+        <pages>321</pages>
+    </book>
+    <book>
+        <title>Raspberry Pi User Guide</title>
+        <category>Hardware</category>
+        <published>2016</published>
+        <pages>293</pages>
+    </book>
+    <book>
+        <title>Only Humans Need Apply</title>
+        <category>Technology</category>
+        <published>2016</published>
+        <pages>276</pages>
+    </book>
+    <book>
+        <title>Thinking, Fast and Slow</title>
+        <category>Psychology</category>
+        <published>2011</published>
+        <pages>499</pages>
+    </book>
+    <book>
+        <title>Fluent Python</title>
+        <category>Programming</category>
+        <published>2015</published>
+        <pages>765</pages>
+    </book>
+</books>
