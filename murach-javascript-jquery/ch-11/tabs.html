@@ -9,9 +9,31 @@
     
     <script src="assets/scripts/jquery-3.2.1.min.js"></script>
     <script src="assets/scripts/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#tabs").tabs();
+        });
+    </script>
 </head>
 <body>
     <h1>Tabs</h1>
-    
+    <section>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">1</a></li>
+                <li><a href="#tabs-2">2</a></li>
+                <li><a href="#tabs-3">3</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>1</p>
+            </div>
+            <div id="tabs-2">
+                <p>2</p>
+            </div>
+            <div id="tabs-3">
+                <p>3</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

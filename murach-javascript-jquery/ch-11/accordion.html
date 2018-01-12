@@ -9,9 +9,36 @@
     
     <script src="assets/scripts/jquery-3.2.1.min.js"></script>
     <script src="assets/scripts/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#accordion").accordion(
+                { 
+                event: "mouseover",
+                heightStyle: "content",
+                collapsible: true 
+                });
+        });
+    </script>
 </head>
 <body>
     <h1>Accordion</h1>
+    <section>     
+        <div id="accordion">
+            <h3>1</h3>
+            <div>
+            <p>1</p>
+            </div>
     
+            <h3>2</h3>
+            <div>
+            <p>2</p>
+            </div>
+    
+            <h3>3</h3>
+            <div>
+            <p>3</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

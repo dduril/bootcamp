@@ -8,10 +8,18 @@
     <link rel="stylesheet" href="assets/styles/jquery-ui.min.css">
     
     <script src="assets/scripts/jquery-3.2.1.min.js"></script>
-    <script src="assets/scripts/jquery-ui.min.js"></script>
+    <script src="assets/scripts/jquery-ui.min.js"></script>  
+    <script>
+        $(document).ready(function() {
+            $("#datepicker").datepicker();
+        });
+    </script>  
 </head>
 <body>
     <h1>Datepicker</h1>
-    
+    <main>       
+		<label>Arrival date:</label>
+		<label><input type="text" id="datepicker"></label>
+	</main>
 </body>
 </html>
