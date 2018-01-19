@@ -1,4 +1,4 @@
-# JavaScript and jQuery 
+## JavaScript and jQuery 
 
 #### Join Our List Example
 

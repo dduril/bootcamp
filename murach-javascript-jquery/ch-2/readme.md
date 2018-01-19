@@ -1,4 +1,4 @@
-# JavaScript and jQuery 
+## JavaScript and jQuery 
 
 #### MPG Calculate Application
 

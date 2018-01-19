@@ -1,1 +1,3 @@
-## [placeholder]
+## JavaScript and jQuery 
+
+#### JavaScript Statements
