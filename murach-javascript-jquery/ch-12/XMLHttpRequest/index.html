@@ -6,9 +6,33 @@
     <link rel="stylesheet" href="../assets/styles/normalize.css">
     <link rel="stylesheet" href="../assets/styles/style.css">
     <script src="../assets/scripts/jquery-3.2.1.min.js"></script>
+    <script>
+		$(document).ready(function() {
+	  		var xhr = new XMLHttpRequest();
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200) {
+					xmlDoc = xhr.responseXML;
+					var team = xmlDoc.getElementsByTagName("movie");
+					var html = "";
+					for (i = 0; i < team.length; i++){
+						html += "<strong>" + 
+							xmlDoc.getElementsByTagName("title")[i].childNodes[0].nodeValue + "</strong><br>" +
+							xmlDoc.getElementsByTagName("released")[i].childNodes[0].nodeValue + "<br>" +
+							xmlDoc.getElementsByTagName("rating")
+                            [i].childNodes[0].nodeValue + "<br>" +
+							xmlDoc.getElementsByTagName("runTime")
+                            [i].childNodes[0].nodeValue + "<br><br>";
+					}
+					document.getElementById("movieList").innerHTML = html; 
+				}
+			};
+			xhr.open("GET", "movies.xml", true);
+			xhr.send();
+		});
+    </script>
 </head>
 <body>
     <h1>XMLHttpRequest</h1>
-    
+    <div id="movieList"></div>
 </body>
 </html>

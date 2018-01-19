@@ -6,9 +6,23 @@
     <link rel="stylesheet" href="../assets/styles/normalize.css">
     <link rel="stylesheet" href="../assets/styles/style.css">
     <script src="../assets/scripts/jquery-3.2.1.min.js"></script>
+    <script>
+		$(document).ready(function() {
+			$.get( "movies.xml", function(data) {
+				$(data).find("movies").children().each(function() {
+					var xmlDoc = $(this);
+					$("#movieList").append("<h4>" + 
+						xmlDoc.find("title").text() + "</h4>" + 
+						xmlDoc.find("released").text() + "<br>" + 
+						xmlDoc.find("rating").text() + "<br>" + 
+                        xmlDoc.find("runTime").text() + "<br><br>")
+				});
+			}, "xml");
+		});
+    </script>
 </head>
 <body>
-    <h1>Ajax and XML</h1>
-    
+    <h1>Get XML</h1>
+    <div id="movieList"></div>
 </body>
 </html>

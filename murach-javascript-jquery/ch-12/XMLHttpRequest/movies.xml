@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<movies>
+    <movie>
+        <title>Akira</title>
+        <released>1987</released>
+        <rating>R</rating>
+        <runTime>124</runTime>
+    </movie>
+    <movie>
+        <title>Aliens</title>
+        <released>1986</released>
+        <rating>R</rating>
+        <runTime>137</runTime>
+    </movie>
+    <movie>
+        <title>Dark City</title>
+        <released>1998</released>
+        <rating>R</rating>
+        <runTime>96</runTime>
+    </movie>
+    <movie>
+        <title>Looper</title>
+        <released>2012</released>
+        <rating>R</rating>
+        <runTime>119</runTime>
+    </movie>
+    <movie>
+        <title>Starship Troopers</title>
+        <released>1997</released>
+        <rating>R</rating>
+        <runTime>130</runTime>
+    </movie>
+</movies>

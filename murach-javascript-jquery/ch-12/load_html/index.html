@@ -6,9 +6,26 @@
     <link rel="stylesheet" href="../assets/styles/normalize.css">
     <link rel="stylesheet" href="../assets/styles/style.css">
     <script src="../assets/scripts/jquery-3.2.1.min.js"></script>
+    <script>
+		$(document).ready(function() {
+			$("#hp").click(function() {
+				$("#movies").load("movies.html #hp");
+			});
+			$("#lotr").click(function() {
+				$("#movies").load("movies.html #lotr");
+			});
+			$("#sw").click(function() {
+				$("#movies").load("movies.html #sw");
+			});
+		});
+    </script>
 </head>
 <body>
-    <h1>Ajax and HTML</h1>
-    
+    <h1>Load HTML</h1>
+    <a id="hp" href="#">Harry Potter</a> | 
+    <a id="lotr" href="#">Lord of the Rings</a> | 
+    <a id="sw" href="#">Star Wars</a>
+    <br><br>
+    <div id="movies"></div>
 </body>
 </html>
