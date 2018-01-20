@@ -1,39 +1,49 @@
 ## HTML5 and CSS3
 
-#### Simple Page
+#### Coding and testing web pages
 
-This is a basic HTML page with a few tags - `h1`, `h2`, `ul` and `li`. 
+**CSS example**
 
-CSS was added for styling and practice. 
+- `h1` - selector
+- `color` - property
+- `blue` - value
+- `color: blue;` - declaration
 
-#### Markup
+**CSS rule set:**
 
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-	    <meta charset="UTF-8">
-	    <title>HTML5 : Getting Started</title>
-	    <link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-	    <h1>HTML5 Tutorial</h1>
-	    <h2>Getting Started</h2>
-	    <ul>
-	        <li>Installing the Brackets Editor</li>
-	        <li>Setting up the HTML5 Template</li>
-	        <li>Incorporating an External CSS3 file</li>
-	        <li>Adding comments and documentation</li>
-	        <li>Validating your HTML5 and CSS3</li>  
-	    </ul>
-	</body>
-	</html>
+	h1 {
+		color: blue;
+	}
 
+**Selecting by element type, id, and class**
 
+**Type**
 
+	body {
+		font-family: Arial, sans-serif;
+		font-size: 100%;
+		width: 90%;
+    	margin: 0 auto;
+    	padding: 1em;
+	}
 
+**ID**
 
+	#main_div {
+		font-size: .9em;
+		text-align: left;
+	}
 
+**Class**
 
+	.bordered_nav {
+		border: 1px solid #999;
+	}
+
+**Validating HTML and CSS**
+
+- **[W3C Markup Validation Service](http://validator.w3.org/)**
+- **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**
 
 
 
