@@ -2,7 +2,11 @@
 
 #### Simple Page
 
-This is a very basic HTML page with only a few tags - `h1`, `h2`, `ul` and `li`. CSS was added for styling and practice. These early examples are quick studies and lay the foundation for more complex examples to follow.
+This is a basic HTML page with a few tags - `h1`, `h2`, `ul` and `li`. 
+
+CSS was added for styling and practice. 
+
+#### Markup
 
 	<!DOCTYPE html>
 	<html lang="en">
