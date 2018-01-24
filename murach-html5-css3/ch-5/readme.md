@@ -11,7 +11,7 @@
 - `min-height`
 - `max-height`
 
-**Examples**
+**Example**
 
 	body {
 		width: 90%;
@@ -25,7 +25,7 @@
 - `margin-left`
 - `margin`
 
-**Examples**
+**Example**
 
 	.container {
 		margin-top: .5em;
@@ -46,7 +46,7 @@
 - `padding-left`
 - `padding`
 
-**Examples**
+**Example**
 
 	.container {
 		padding-top: .75em;
@@ -70,7 +70,7 @@
 - `border-side-style`
 - `border-side-color`
 
-**Examples**
+**Example**
 
 	.border {
 		border: 1px solid #999;
@@ -85,7 +85,7 @@
 - `background-attachment`
 - `background-position`
 
-**Examples**
+**Example**
 
 	.background {
 		backgroun-image: #ddd url("../assets/images/header.png") no-repeat scroll center top;
