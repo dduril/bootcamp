@@ -2,6 +2,8 @@
 
 #### Introduction to Web Development
 
+**About these pages:** *Notes and code samples from Murach's HTML5 and CSS3, 3rd Edition. I have been working through this text and compiling what I feel are the key points and examples from each chapter. I would highly recommend the Murach books, they have a interesting approach and provide a solid foundation on a wide range of programming and database topics.* 
+
 **Components of a web application:**
 
 - Desktop, laptop, tablet, mobile device
