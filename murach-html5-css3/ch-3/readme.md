@@ -16,27 +16,27 @@
 
 **Block elements for headings and paragraphs**
 
-- `h1` - 200% of base font size
-- `h2` - 150% of base font size
-- `h3` - 117% of base font size
-- `h4` - 100% of base font size
-- `h5` - 83% of base font size
-- `h6` - 67% of base font size
-- `p` - 100% of base font size
+- `<h1>` - 200% of base font size
+- `<h2>` - 150% of base font size
+- `<h3>` - 117% of base font size
+- `<h4>` - 100% of base font size
+- `<h5>` - 83% of base font size
+- `<h6>` - 67% of base font size
+- `<p>` - 100% of base font size
 
 **Block elements for special types of text**
 
-- `pre`
-- `blockquote`
-- `address`
+- `<pre>`
+- `<blockquote>`
+- `<address>`
 
 **Inline elements for formatting text**
 
-- `i`
-- `b`
-- `sub`
-- `sup`
-- `br`
+- `<i>`
+- `<b>`
+- `<sub>`
+- `<sup>`
+- `<br>`
 
 **Inline elements for identifying text**
 
