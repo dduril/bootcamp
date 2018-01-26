@@ -14,6 +14,17 @@
 	- `none`
 - `li`
 
+**Example**
+
+	<ul class="square">
+		<li>Animal</li>
+		<li>Vegetable</li>
+		<li>Mineral</li>
+	</ul>
+
+	ul.square {
+		list-style-type: square;
+	}
 
 **Ordered lists**
 
@@ -27,11 +38,31 @@
 	- `upper-roman`
 - `li`
 
+**Example**
+
+	<ol class="lower_roman">
+		<li>Crack eggs</li>
+		<li>Scramble</li>
+		<li>Mix-in toppings</li>
+	</ol>
+
+	ol.lower_roman {
+		list-style-type: lower-roman;
+	}
+
 **Description lists**
 
 - `dl`
 - `dt`
 - `dd`
+
+**Example**
+
+	<h2>Front End Development</h2>
+	<dl>
+		<dt>JavaScript</dt>
+		<dd>Core language for web development and providing interactive UI and effects.</dd>
+	</dl>
 
 **`<a>` element**
 
@@ -40,6 +71,10 @@
 - `tabindex`
 - `accesskey`
 
+**Example**
+
+	<a href="https://jquery.com/" title="jQuery">jQuery</a>
+
 **CSS pseudo-classes to format links**
 
 - `link`
@@ -47,6 +82,17 @@
 - `hover`
 - `focus`
 - `active`
+
+**Example**
+
+	a:link {
+		color: darkgreen;
+	}
+	a:hover, a:focus {
+		text-decoration: none;
+		color: navy;
+		font-weight: bold;
+	}
 
 **Removing underlines and borders**
 
