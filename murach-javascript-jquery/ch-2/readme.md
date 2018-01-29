@@ -51,16 +51,18 @@
 	var last_name = "Smith";
 	var full_name = first_name + " " + last_name;
 
-**Window Object**
+**Window Object Methods**
 
 - alert(string)
 - prompt(string, default)
-- print();
+- confirm(string)
+- print()
 - parseInt(string)
 - parseFloat(string)
 
-**Document Object**
+**Document Object Methods**
 
+- getElementById(id)
 - write(string)
 - writeln(string)
 
