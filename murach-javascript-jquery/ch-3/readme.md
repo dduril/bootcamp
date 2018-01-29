@@ -86,5 +86,25 @@
 	}
 	return sum;
 
+**Arrays**
 
+	// array example	
+	var scores = [];
+	scores[0] = 82;
+	scores[1] = 94;
+	scores[2] = 98;
+	var count = scores.length;
+
+	// put numbers 1 - 10 in an array
+	var numbers = [];
+	for (var i = 0; i < 10; i++) {
+		numbers[i] = i + 1;
+	}
+	
+	// display the numbers in the array
+	var number_string = "";
+	for (var i = 0; i < numbers.length; i++) {
+		number_string += numbers[i] + " ";
+	}
+	return number_string;
 	
