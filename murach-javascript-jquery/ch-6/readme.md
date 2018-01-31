@@ -19,5 +19,23 @@
 
 **Examples**
 
+	// create an array of <a> tags in document
+	var links = document.getElementsByTagName("a");
 
+	// create an array of <li> tags within <ul> list
+	var list = document.getElementsById("photo_list");
+	var items = list.getElementsByTagName("li");
 
+	// test for an attribute
+	var list = document.getElementsById("photo_list");
+	if (list.hasAttribute("class") ) {
+		var classAttribute = list.getAttribute("class");
+	}
+	
+	// set an attribute
+	var list = document.getElementsById("photo_list");
+	list.setAttribute("class", "expand");
+
+	// remove an attribute
+	var list = document.getElementsById("photo_list");
+	list.removeAttribute("class");
