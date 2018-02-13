@@ -85,7 +85,7 @@ Text area
 Using label elements
 
 	<label for="first_name">First Name:</label>
-	<input type="text" name="first_name" id="first_name"><br>
+	<input type="text" name="first_name" id="first_name" autofocus><br>
 	<label for="last_name">Last Name:</label>
 	<input type="text" name="last_name" id="last_name"><br>
 
@@ -95,11 +95,37 @@ Using fieldset and legend
 	<fieldset>
 		<legend>Account Information</legend>
 		<label for="first_name">First Name:</label>
-		<input type="text" name="first_name" id="first_name"><br>
+		<input type="text" name="first_name" id="first_name" autofocus><br>
 		<label for="last_name">Last Name:</label>
 		<input type="text" name="last_name" id="last_name"><br>
 	</fieldset>
 	</form>
 
+Aligning form elements
+
+HTML
+
+	<label for="first_name">First Name:</label>
+	<input type="text" name="first_name" id="first_name" autofocus><br>
+		
+	<label for="last_name">Last Name:</label>
+	<input type="text" name="last_name" id="last_name"><br>
+	
+	<input type="submit" name="submit" id="button" value="Register">&nbsp;
+	<input type="reset" name="reset" id="reset" value="Reset">
 
 
+CSS
+
+	label {
+		float: left;
+		width: 5em;
+		text-align: right;
+	}
+	input {
+		margin-left: 1em;
+		margin-bottom: .5em;
+	}
+	#button {
+		margin-left: 7em;
+	}
