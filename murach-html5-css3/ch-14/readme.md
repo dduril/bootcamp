@@ -50,7 +50,8 @@
 **Example**
 
     <!-- html -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor cumque iusto quod esse consectetur. Necessitatibus repellendus nobis quas facere inventore?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor cumque iusto quod 
+        esse consectetur. Necessitatibus repellendus nobis quas facere inventore?</p>
 
     /* css */
     p {
