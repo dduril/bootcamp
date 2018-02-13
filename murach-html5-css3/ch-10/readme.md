@@ -27,7 +27,7 @@
 		...
 	</table>
 
-**Elements for header, bodt, and footer**
+**Elements for header, body, and footer**
 
 - `<thead>`
 - `<tbody>`
