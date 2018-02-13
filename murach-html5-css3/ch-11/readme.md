@@ -129,3 +129,14 @@ CSS
 	#button {
 		margin-left: 7em;
 	}
+
+Using the HTML5 email, url, and tel controls
+
+	<form name="register" action="register.php" method="post">
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required><br>
+		<label for="github">Github:</label>
+		<input type="url" name="github" id="github" required><br>
+		<label for="mobile">Mobile:</label>
+		<input type="tel" name="mobile" id="mobile"><br>
+	</form>
