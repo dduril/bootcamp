@@ -17,9 +17,9 @@
     - Theora
     - VP8
 - MIME types
-    - video/ogg
-    - video/webm
-    - application/x-shockwave-flash
+    - `video/ogg`
+    - `video/webm`
+    - `application/x-shockwave-flash`
     
 **Audio media types**
 
@@ -34,20 +34,20 @@
     - Vorbis
     - WMA
 - MIME types
-    - audio/mp3
-    - audio/ogg
+    - `audio/mp3`
+    - `audio/ogg`
     
 **Audio and video element attributes**
 
-- src
-- poster
-- preload
-- autoplay
-- loop
-- muted
-- controls
-- width
-- height
+- `src`
+- `poster`
+- `preload`
+- `autoplay`
+- `loop`
+- `muted`
+- `controls`
+- `width`
+- `height`
 
 **Object element**
 
