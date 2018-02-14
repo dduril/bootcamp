@@ -25,7 +25,7 @@
 - `autofocus`
 - `placeholder`
 
-**HTML5 data validation attributes
+**HTML5 data validation attributes**
 
 - `required`
 - `title`
