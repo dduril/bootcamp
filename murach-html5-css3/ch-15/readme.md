@@ -30,9 +30,6 @@
 - `Attr`
 - `Text`
 
-**Example**
-
-
 
 **Document object methods**
 
@@ -41,7 +38,7 @@
 
 **Example**
 
-
+    var firstName = document.getElementById("first_name");
 
 **DOM properties for scripting
 
@@ -51,4 +48,11 @@
 
 **Example**
 
-
+    var $ = function(id) {
+        return document.getElementById(id);    
+    }
+    
+    var firstName = $("first_name").value;
+    
+    $("first_name_error").firstChild.nodeValue = "Please enter first name.";
+    
