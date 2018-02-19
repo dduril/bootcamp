@@ -46,9 +46,21 @@
 
 **Website Design**
 
+- Define the audience and goals
+- Develop a site map
+- Wireframe most common pages
+- Build out most common pages
 
 **Website Implementation**
 
+- Develop HTML and CSS templates
+- Develop web pages
+- Deploy site to test server (Github Pages)
+- Test and launch site
 
 **Website Maintenance**
 
+- Plan site changes and updates
+- Design site changes and updates
+- Implement site changes and updates
+- Test and launch changes to production
