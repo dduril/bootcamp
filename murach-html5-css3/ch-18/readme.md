@@ -38,3 +38,17 @@
 - Contrast
 
 **Website Maintenance**
+
+- Use HTML for content, CSS for page layout and formatting
+- Use tables for tabular information, not layout
+- Don't use frames
+- Design first, then implement
+
+**Website Design**
+
+
+**Website Implementation**
+
+
+**Website Maintenance**
+
