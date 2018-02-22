@@ -10,6 +10,123 @@
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
+    <div data-role="page" id="home">
+        <header data-role="header">
+            <h1>Wine Gallery</h1>
+        </header>
+        <section data-role="content">
+            <ul data-role="listview" data-split-icon="gear" data-inset="true">
+                <li>
+                    <a href="#barrels">
+                        <img src="images/barrels.jpg">                  
+                        <p><strong><br>Barrels</strong></p>
+                    </a>
+                    <a href="#buytix" data-rel="dialog" data-transition="pop">Buy Tickets</a>
+                </li>
+                <li>
+                    <a href="#flowers">
+                        <img src="images/flowers.jpg">
+                        <p><strong><br>Flowers</strong></p>
+                    </a>
+                    <a href="#buytix" data-rel="dialog" data-transition="pop">Buy Tickets</a>
+                </li>
+                <li>
+                    <a href="#fountain">          
+                        <img src="images/fountain.jpg">
+                        <p><strong><br>Fountain</strong></p>
+                    </a>
+                    <a href="#buytix" data-rel="dialog" data-transition="pop">Buy Tickets</a>
+                </li>
+                <li>
+                    <a href="#tractor">
+                        <img src="images/tractor.jpg">               
+                        <p><strong><br>Tractor</strong></p>
+                    </a>
+                    <a href="#buytix" data-rel="dialog" data-transition="pop">Buy Tickets</a>
+                </li>
+                <li>
+                    <a href="#winery">
+                        <img src="images/winery.JPG">               
+                        <p><strong><br>Winery</strong></p>
+                    </a>
+                    <a href="#buytix" data-rel="dialog" data-transition="pop">Buy Tickets</a>
+                </li>
+            </ul>
+        </section>
+        <footer data-role="footer">
+            <h4>&copy; 2018</h4>
+        </footer>
+    </div>
 
+   
+    <div data-role="page" id="buytix">
+        <header data-role="header">
+            <h1>Buy Tickets</h1>
+        </header>
+        <section data-role="content">
+            <h3>Ticket packages and prices</h3>
+            <p><strong>Season ticket: $95</strong></p>
+            <p>Admission to all six wineries, plus one single-lecture guest ticket good for any one lecture</p>
+            <p><strong>Patron ticket: $200</strong></p>
+            <p>Admission to all six wineries, plus three single-lecture guest tickets and recognition in annual brochure</p>
+            <p><strong>Single lecture: $25</strong></p>
+            <p>Must be purchased at the box office on the day of the lecture</p>
+
+            <a href="index.html" data-role="button" data-inline="true" data-rel="back">Cancel</a>
+            <a href="index.html" data-role="button" data-inline="true" data-theme="b" data-rel="back">Buy Ticket</a>
+        </section>
+        <footer data-role="footer">
+            <h4>&copy; 2018</h4>
+        </footer>
+    </div>
+
+   
+    <div data-role="page" id="barrels">
+        <header data-role="header">
+            <h1>Barrels</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" id="home" data-icon="home" data-theme="b" class="ui-btn-active">Home</a></li>
+                    <li><a href="#wineries" id="wineries" data-icon="star" data-theme="b">Wineries</a></li>
+                    <li><a href="#contact" id="contact" data-icon="grid" data-theme="b">Contact Us</a></li>
+                </ul>
+            </div>
+        </header>
+        <section data-role="content">
+            <h1>Barrels</h1>
+            <img src="images/barrels.jpg" alt="Barrels" width="260" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ea odit dolor natus aliquid excepturi suscipit voluptate culpa consequuntur beatae odio ipsum consectetur consequatur, illum quaerat id modi, ducimus accusamus expedita! Veniam accusamus voluptatibus doloremque, hic! Sequi, iusto. Atque, similique. Consequatur, dolorem.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum labore atque error quidem architecto eveniet consequuntur in eligendi molestiae laboriosam voluptatum sequi odio numquam accusantium alias ratione dolores optio, repellat. Provident, alias!</p>
+            <p><a href="#back" data-direction="reverse" data-role="button" data-theme="b">Back to list</a></p>
+        </section>
+        <footer data-role="footer">
+            <h4>&copy; 2018</h4>
+        </footer>
+    </div>
+    
+    
+    <div data-role="page" id="flowers">
+        <header data-role="header">
+            <h1>Flowers</h1>
+            <div data-role="navbar">
+            <ul>
+                <li><a href="#home" id="home" data-icon="home" data-theme="b" class="ui-btn-active">Home</a></li>
+                <li><a href="#wineries" id="wineries" data-icon="star" data-theme="b">Wineries</a></li>
+                <li><a href="#contact" id="contact" data-icon="grid" data-theme="b">Contact Us</a></li>
+            </ul>
+        </div>
+        </header>
+        <section data-role="content">
+            <h3>Flowers</h3>
+            <img src="images/flowers.jpg" alt="Flowers" width="260" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, similique est vitae hic. Impedit nemo provident libero ipsa amet id nesciunt blanditiis. Libero quos, quae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur officiis sapiente dicta qui praesentium blanditiis eveniet harum, quo, molestiae, a vero quos tempora? Nulla vel eius deleniti iure, vero distinctio delectus quasi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa non ea doloribus dicta quaerat, in necessitatibus eveniet obcaecati.</p>
+            <p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Back to list</a></p>
+        </section>
+        <footer data-role="footer">
+            <h4>&copy; 2018</h4>
+        </footer>
+    </div>
 </body>
 </html>
