@@ -72,5 +72,60 @@ var max = Math.max(x, y);</pre>
     
     var random_number = getRandomNumber(100);</pre>
     
+    <h3>String object methods</h3>
+    <pre>var name = "John Smith";
+var len_name = name.length;
+var pos_char = name.charAt(5);
+        
+var dept = "Accounting";
+var dept_updt = dept.concat(" and Finance");
+   
+var message = "JavaScript";
+var result_a = message.indexOf("a");
+var result_b = message.indexOf("a", 2);
+var result_c = message.indexOf("s");
+   
+var result_d = message.substr(4, 5);
+var result_e = message.substr(4);
+var result_f = message.substring(0, 4);
+   
+var result_g = message.toLowerCase();
+var result_h = message.toUpperCase();</pre>
+   
+   <h3>Trimming strings</h3>
+   <pre>var ltrim = function(text) {
+    var start = 0;
+    while (text.charAt(start) == " ") {
+        start++;
+    }
+    return text.substring(start);
+};
+var result = ltrim("   JavaScript and jQuery");
+
+var rtrim = function(text) {
+    var end = text.length - 1;
+    while (text.charAt(end) == " ") {
+        end--;
+    }
+    return text.substring(0, end + 1);
+};
+var result = rtrim("JavaScript and jQuery    ");
+
+var trim = function(text) {
+    return ltrim(rtrim(text));
+};
+var result = trim("   JavaScript and jQuery    ");</pre>
+
+    <h3>Comparing strings</h3>
+   <pre>var equalIgnoreCase = function(text1, text2) {
+    return text1.toLowerCase() == text2.toLowerCase();
+};
+  
+if (equalIgnoreCase("JavaScript", "javascript")) {
+    document.write("Strings are the same."); 
+}</pre>  
+   
+   <h3>Date object</h3>
+    
 </body>
 </html>
