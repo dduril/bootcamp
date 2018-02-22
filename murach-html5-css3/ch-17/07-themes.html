@@ -3,13 +3,42 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <title>San Joaquin Valley Town Hall</title>
+    <title>jQuery Mobile Demos - Themes</title>
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <!-- JavaScript HTML requirements -->
 	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-    
+    <div data-role="page">
+        <header data-role="header">
+            <h1>Header</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" id="home" data-icon="home" data-theme="b">Home</a></li>
+                    <li><a href="#" id="speakers" data-icon="star" data-theme="b" class="ui-btn-active" >Speakers</a></li>
+                    <li><a href="#" id="news" data-icon="grid" data-theme="b">News</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="ui-content" role="main">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id at, maxime. Illo facere dolorem totam quaerat eveniet aut, eligendi maxime perspiciatis recusandae voluptate. Minus, reiciendis.</p>
+            <hr>
+            <strong>Topic 1</strong><br>
+            <p>John Smith<br>
+            October</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dolores, eius aliquam neque delectus quos sit voluptate unde fuga recusandae. Nobis incidunt exercitationem aperiam qui impedit, dignissimos omnis.</p>
+            <hr>
+            <strong>Topic 2</strong><br>
+            <p>Lisa Jones<br>
+            November</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nesciunt libero dolor voluptatibus nobis eligendi in enim aspernatur error nam ab, omnis. Doloribus soluta facilis fugiat voluptatum error delectus quod dignissimos id?</p>
+        </section>
+
+        <footer data-role="footer">
+            <h4>&copy; 2018</h4>
+        </footer>
+    </div>
 </body>
 </html>
