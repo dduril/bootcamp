@@ -7,6 +7,70 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Numbers, Strings, and Dates</h1>
+    
+    <h3>Testing for Infinity, -Infinity, and NaN</h3>
+    <pre>if (result == Infinity){
+    document.write("");
+    }
+else if (result == -Infinity) {
+    document.write("");
+    }
+else if (isNaN(result)) {
+    document.write("");
+    }
+else {
+    document.write("");
+    }</pre>
+    
+    <h3>Using the toFixed() method</h3>
+    <pre>var sub_total = 14.99, rate = 0.085;
+var tax = sub_total * rate;   
+tax = parseFloat(tax.toFixed(2));
+document.write(tax.toFixed(2));</pre>
+    
+    <h3>Math object methods</h3>
+    <pre>var x1 = Math.abs(-5.4);
+
+var x2 = Math.round(14.5);
+var x3 = Math.round(-5.4);
+var x4 = Math.round(-5.5);
+var x5 = Math.round(-5.51);
+   
+var x6 = Math.floor(14.5);
+var x7 = Math.ceil(14.5);
+var x8 = Math.floor(-8.4);
+var x9 = Math.ceil(-8.4);
+   
+var x10 = Math.pow(2, 4);
+var x11 = Math.pow(125, 1/3);
+var x12 = Math.sqrt(25);
+   
+var x = 14.5, y = -8.5;
+var min = Math.min(x, y);
+var max = Math.max(x, y);</pre>
+   
+   <h3>Generating a random number</h3>
+   <pre>var result = Math.random();</pre>
+   
+   <h3>A function that generates a random number</h3>
+   <pre>var getRandomNumber = function(max) {
+    var random;
+    if (!isNaN(max)){
+        // value &gt;= 0.0 and &lt; 1.0
+        random = Math.random();
+        
+        // value is an integer between 0 and max
+        random = Math.floor(random * max);
+        
+        // value is an integer between 1 and max
+        random = random + 1;
+        }
+        // if max is not a number, will return undefined
+        return random;  
+    };
+    
+    var random_number = getRandomNumber(100);</pre>
     
 </body>
 </html>
