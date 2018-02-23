@@ -10,22 +10,120 @@
     <h1>Control Structures, Exceptions, and Regular Expressions</h1>
     
     <h3>While loop with break statement</h3>
-    <pre></pre>
+    <pre>var number;
+while (true) {
+    number = parseInt(prompt("Enter a number from 1 to 10."));
+    if (isNaN(number) || number &lt; 1 || number &gt; 10) {
+        document.write("Invalid entry. Please try again.");
+    } else {
+        break;
+    }   
+}
+document.write(number);</pre>
     
     <h3>While loop with continue statement</h3>
-    <pre></pre>
+    <pre>var sum = 0;
+var number = 0;
+while (number &lt;= 40) {
+    number++;
+    if (number % 5 !== 0) {
+        continue;
+    }   
+    sum += number;
+}
+document.write(sum);</pre>
     
     <h3>Switch statement</h3>
-    <pre></pre>
+    <pre>switch(grade) {
+    case "A":
+        message = "Excellent";
+        break;
+    case "B":
+        message = "Above average";
+        break; 
+    case "C":
+        message = "Average";
+        break; 
+    case "D":
+        message = "Below average";
+        break; 
+    case "F":
+        message = "Failing";
+        break; 
+    default:
+        message = "Invalid grade";
+        break;     
+}</pre>
     
     <h3>Conditional statements</h3>
-    <pre></pre>
+    <pre>var message;
+if (age &gt;= 18) {
+    message = "Voting age";
+} else {
+    message = "Cannot vote";  
+}</pre>
+    <pre>
+var selected = false;
+if (state === "CA" || state === "OR") {
+    selected = true;
+}</pre>
     
     <h3>Try-catch statements</h3>
-    <pre></pre>
+    <pre>var calculateFV = function( investment, rate, years ) {
+    if ( isNaN(investment) || investment &lt;= 0 ) {
+        throw new Error("calculateFV requires an investment amount greater than zero." );
+    }
+    if ( isNaN(rate) || rate &lt;= 0 ) {
+        throw new Error("calculateFV requires an annual rate greater than zero." );
+    }
+    if ( isNaN(years) || years &lt;= 0 ) {
+        throw new Error("calculateFV requires a years entry greater than zero." );
+    }
+
+    var futureValue = investment;
+
+    for ( var i = 1; i &lt;= years; i++ ) {
+        futureValue += futureValue * rate / 100;
+    }
+    return futureValue.toFixed(2);
+};</pre>
+    <pre>try {
+    $("future_value").text = calculateFV(investment, rate, years);
+}    
+catch(error) {
+    document.write(error.name + ": " + error.message);
+}
+finally {
+    $("investment".focus();)  
+}</pre>
     
     <h3>Regular expression statement</h3>
-    <pre></pre>
+    <pre>var email = $("#email").val();
+var phone = $("#phone").val();
+var zip = $("#zip").val();
+var dob = $("#dob").val();
+
+if ( email === "" || ! /^[\w\.\-]+@[\w\.\-]+\.[a-zA-Z]+$/.test(email) ) 
+{
+    isValid = false;
+    $( "#email" ).next().text("Please enter a valid email.");
+}
+if ( phone === "" || ! /^\d{3}-\d{3}-\d{4}$/.test(phone) ) {
+    isValid = false;
+    $( "#phone" ).next().text("Please enter a phone number in NNN-NNN-NNNN format.");
+}
+if ( zip === "" || ! /^\d{5}(-\d{4})?$/.test(zip) ) {
+    isValid = false;
+    $( "#zip" ).next().text("Please enter a valid zip code.");
+}
+if ( dob === "" || !isDate(dob) ) {
+    isValid = false;
+    $( "#dob" ).next().text()"Please enter a valid date in MM/DD/YYYY format.");
+}
+
+if ( isValid ) { 
+// code that saves profile info goes here
+}</pre>
     
     
 </body>
