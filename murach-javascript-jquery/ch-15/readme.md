@@ -20,6 +20,20 @@
 - `reload(force)`
 - `replace(url)`
 
+**Load a new web page**
+
+    location.href = "http://www.google.com"
+    location = "http://www.google.com"
+    
+**Reload a web page**
+
+    location.reload();
+    location.reload(true);
+    
+**Load a new web page and overwrite current history page**
+
+    location.replace("http://www.google.com");
+
 **history object property**
 
 - `length`
@@ -30,6 +44,20 @@
 - `forward()`
 - `go(position)`
 - `go(substring)`
+
+**Using the back() method**
+
+    history.back();
+
+**Using the forward() method**
+
+    history.forward();
+
+**Using the go() method**
+
+    history.go(2);
+    history.go(-2);
+    history.go("google");
 
 **cookie attributes**
 
@@ -42,3 +70,39 @@
 
 - `encodeURIComponent(value)`
 - `decodeURIComponent(value)`
+
+**Create a session cookie**
+
+    var cookie = "todo" + "=";
+    cookie += encodeURIComponent("Update Meetups schedule\Review TED Talks");
+    cookie += "; path=/";
+    document.cookie = cookie;
+
+**Create a persistent cookie**
+
+    var cookie = "todo" + "=";
+    cookie += encodeURIComponent("Update Meetups schedule\Review TED Talks");
+    cookie += "; max-age=" + days * 24 * 60 * 60;
+    cookie += "; path=/";
+    document.cookie = cookie;
+
+**Delete a cookie**
+
+    var cookie = "tasks=";
+    cookie += "; max-age=" + 0; 
+    cookie += "; path=/";
+    document.cookie = cookie;
+    
+**Web storage examples**
+
+    // local storage
+    localStorage.setItem("Tasks for Monday", "Update reading list");
+    localStorage.getItem("Tasks for Monday");
+    localStorage.removeItem("Tasks for Monday");
+    localStorage.clear();
+    
+    // session storage
+    sessionStorage.setItem("Tasks for Monday", "Update reading list");
+    sessionStorage.getItem("Tasks for Monday");
+    sessionStorage.removeItem("Tasks for Monday");
+    sessionStorage.clear();
