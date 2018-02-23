@@ -62,3 +62,33 @@
         num_string += nums[i] + " ";
     }
     document.write("nums array: " + num_string);
+    
+**Array object methods**
+
+- `push(element_list)`
+- `pop()`
+- `unshift(element_list)`
+- `shift()`
+- `reverse()`
+- `splice(start, number)`
+- `splice(start, number, element_list)`
+- `slice(start, number)`
+- `concat(array_list)`
+- `join([separator])`
+- `toString()`
+- `toLocaleString()`
+- `isArray(object)`
+- `indexOf(value, start)`
+- `lastIndexOf(value, start)`
+
+**Array object methods that accept functions as parameters**
+
+- `sort([comparison_function])`
+- `forEach(function, this)`
+- `every(function, this)`
+- `some(function, this)`
+- `map(function, this)`
+- `filter(function, this)`
+- `reduce(function, init)`
+- `reduceRight(function init)`
+
