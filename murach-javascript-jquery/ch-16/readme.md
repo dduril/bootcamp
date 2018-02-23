@@ -20,3 +20,45 @@
     names[1] = "CSS";
     names[2] = "JavaScript";
     names[3] = "jQuery";
+    
+**Working with array elements**
+
+    // add an element to the end of an array
+    var nums = [1, 3, 5, 7];
+    numbers[numbers.length] = 9;
+    
+    // add an element to a specific index
+    var nums = [1, 2, 3, 4];
+    nums[4] = 5;
+    
+    // delete an element at a specific index
+    var nums = [1, 2, 3, 4, 5];
+    delete nums[2];
+    
+    // remove all elements from an array
+    var nums = [2, 4, 6, 8, 10];
+    nums.length = 0;
+    
+**Looping through an array with a for loop**
+
+    // put the numbers 1 through 10 into an array
+    var nums = [];
+    for (var i = 0; i < 10; i++) {
+        nums[i] = i + 1;
+    }
+    
+    // display the nums array
+    var num_string = "";
+    for (var i = 0; i < nums.length, i ++) {
+        num_string += nums[i] + " ";
+    }
+    document.write("nums array: " + num_string);
+    
+**Using a for-in loop**
+
+    var nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    var num_string = "";
+    for (var index in nums) {
+        num_string += nums[i] + " ";
+    }
+    document.write("nums array: " + num_string);
