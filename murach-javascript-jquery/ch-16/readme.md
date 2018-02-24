@@ -92,3 +92,73 @@
 - `reduce(function, init)`
 - `reduceRight(function init)`
 
+**Using push() and pop()**
+
+    var names = ["HTML", "CSS", "JavaScript"];
+    names.push("jQuery", "Bootstrap");
+    var removed_name = names.pop();
+    console.log(names.join());
+    
+
+**Using slice() and concat()**
+
+    var names = ["HTML", "CSS", "JavaScript"];
+    var name_slice = names.slice(0, 2);
+    console.log(names.join(", "));
+    
+    var names_concat = names.concat(name_slice);
+    console.log(names.concat.join());
+
+**Using join() and toString()**
+
+    var names = ["HTML", "CSS", "JavaScript", "Angular", "React"];
+    console.log(names.join());
+    console.log(names.join(", "));
+    console.log(names.toString());
+    
+**Using the sort() method**
+
+    var names = ["HTML", "CSS", "JavaScript", "Angular", "React"];
+    names.sort();
+
+**Using the map() method**
+
+    var numbers = [1, 4, 9, 16, 25];
+    var squared = numbers.map(function(value) {
+        return value * value;
+    });
+    var root = numbers.map(Math.sqrt);
+    
+
+**Using the filter() method**
+
+    var numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+    var check_prime = function(value) {
+        var is_prime = true;
+        for (var i = 2; i < value; i++) {
+            if (value % i === 0) {
+                is_prime = false;
+                break;
+            }
+        }
+        return is_prime;
+    };
+    var prime = numbers.filter(check_prime);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
