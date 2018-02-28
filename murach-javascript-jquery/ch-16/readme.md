@@ -145,20 +145,10 @@
     };
     var prime = numbers.filter(check_prime);
 
+**Using the split() method**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    var date = "3-1-2018";
+    var date_parts = date.split("-");
+    console.log(date_parts.length());
+    console.log(date_parts.join("/"));
 
