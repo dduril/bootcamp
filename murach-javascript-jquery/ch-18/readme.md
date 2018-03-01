@@ -6,16 +6,46 @@
 
 **Closure example**
 
-
+    $(document).ready(function(){
+        var createClickCounter = function() {
+            var count = 0;
+        
+            var clickCounter = function() {
+                count++;
+                console.log(this.id + " count is " + count);
+            };
+        
+            return clickCounter;
+        };
+        
+        $("#first_button").click(createClickCounter());
+        $("#second_button").click(createClickCounter());
+    });
+    
+    
 
 **Immediately invoked function expression (IIFE))**
 
-
+    // function expression defined and then invoked
+    var sayHelloWorld = function() {
+        console.log("Hello World!");
+    };
+    
+    sayHelloWorld();
+    
+    // immediately invoked function expression
+    (function() {
+        console.log("Hello World!");
+    })();
 
 **Module pattern example**
 
+    // create the namespace used by the application
+    var myapp = myapp || {};
 
-
-**Module pattern example for jQuery plugin**
-
-
+    // create the slideshow object and add it to the namespace
+    myapp.slideshow = (function() {
+        .
+        .
+        .
+    })(); // Invoke the IIFE
