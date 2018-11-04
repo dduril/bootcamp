@@ -1,14 +1,8 @@
 # Bootcamp
 
-Having upgraded to a Premium LinkedIn account (in the past), I had access to the Lynda.com library of courses. These courses are well produced and cover a wide spectrum of topics including programming, databases, design, and software project management. There is also something of an emphasis on front end web development - Angular, Bootstrap, node.js, npm, Bower, Gulp, Grunt, responsive web design and progressive web apps.
+This repo is focused on guides for getting started with programming, use of code editors and tools, language syntax, data types, objects, control structures (selection and iteration), exception handling, debugging, and best practices.
 
-Some of the contents/folders within this repo are based on the 'Essentials' line of courses (at Lynda.com). The idea is to have a living document of coding practice - or bootcamp for a variety of programming languages, frameworks and tools. 
-
-The focus is on developing quick guides for getting started, how to use code editors, language syntax, data types, objects, control structures (selection and iteration), exception handling, debugging, and best practices.
-
-More recently, a few new folders were added for studies from: Murach's Java Programming, Murach's MySQL, and Murach's Python Programming. I like the Murach approach - an oversized book with large print and on every page a new lesson - the left side has the content and the right side has the code and example. Each chapter provides easy to follow step-by-step tutorials focusing on a particular topic.
-
-I've been typing up some of the examples from these books to keep my Java, Python, and MySQL coding skills up to date. In some cases I'll simply code and run the examples. In other cases, I'll make modifications or extensions to the examples to better apply what I'm learning. To round things out - I'll add script headers, comments and additionl documentation as added.
+Recently, new folders were added for studies from a line of books published by Murach - ASP.NET, C#, Website development (HTML5, CSS3, JavaScript, jQuery and Bootstrap 4), Java Programming, PHP/MySQL and Python. I like the Murach approach - oversized books with large print and on every page a new lesson - the left side contains a topic's explanation and the right side displays the code and sample output. Each chapter provides easy to follow step-by-step tutorials focusing on a variety of popular topics.
 
 ### Contents
 
